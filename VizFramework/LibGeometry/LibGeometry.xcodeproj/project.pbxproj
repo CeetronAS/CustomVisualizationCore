@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* LibGeometry_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LibGeometry_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D8412864131D312D00380542 /* cvfTriangleVertexSplitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8412860131D312D00380542 /* cvfTriangleVertexSplitter.cpp */; };
+		D8412865131D312D00380542 /* cvfTriangleVertexSplitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D8412861131D312D00380542 /* cvfTriangleVertexSplitter.h */; };
+		D8412866131D312D00380542 /* cvfVertexCompactor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8412862131D312D00380542 /* cvfVertexCompactor.cpp */; };
+		D8412867131D312D00380542 /* cvfVertexCompactor.h in Headers */ = {isa = PBXBuildFile; fileRef = D8412863131D312D00380542 /* cvfVertexCompactor.h */; };
+		D84129291324BC3700380542 /* cvfTriangleMeshEdgeExtractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84129271324BC3700380542 /* cvfTriangleMeshEdgeExtractor.cpp */; };
+		D841292A1324BC3700380542 /* cvfTriangleMeshEdgeExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = D84129281324BC3700380542 /* cvfTriangleMeshEdgeExtractor.h */; };
+		D8457C2E130939D700785013 /* cvfArrowGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C24130939D700785013 /* cvfArrowGenerator.cpp */; };
+		D8457C2F130939D700785013 /* cvfArrowGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C25130939D700785013 /* cvfArrowGenerator.h */; };
+		D8457C30130939D700785013 /* cvfEdgeKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C26130939D700785013 /* cvfEdgeKey.cpp */; };
+		D8457C31130939D700785013 /* cvfEdgeKey.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C27130939D700785013 /* cvfEdgeKey.h */; };
+		D8457C32130939D700785013 /* cvfGeometryBuilderTriangles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C28130939D700785013 /* cvfGeometryBuilderTriangles.cpp */; };
+		D8457C33130939D700785013 /* cvfGeometryBuilderTriangles.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C29130939D700785013 /* cvfGeometryBuilderTriangles.h */; };
+		D8457C34130939D700785013 /* cvfMeshEdgeExtractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C2A130939D700785013 /* cvfMeshEdgeExtractor.cpp */; };
+		D8457C35130939D700785013 /* cvfMeshEdgeExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C2B130939D700785013 /* cvfMeshEdgeExtractor.h */; };
+		D8457C36130939D700785013 /* cvfOutlineEdgeExtractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C2C130939D700785013 /* cvfOutlineEdgeExtractor.cpp */; };
+		D8457C37130939D700785013 /* cvfOutlineEdgeExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C2D130939D700785013 /* cvfOutlineEdgeExtractor.h */; };
+		D8AB0D21122BB7B700FD08EC /* cvfBoundingBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0D0A122BB7B700FD08EC /* cvfBoundingBox.cpp */; };
+		D8AB0D22122BB7B700FD08EC /* cvfBoundingBox.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0D0B122BB7B700FD08EC /* cvfBoundingBox.h */; };
+		D8AB0D23122BB7B700FD08EC /* cvfBoxGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0D0C122BB7B700FD08EC /* cvfBoxGenerator.cpp */; };
+		D8AB0D24122BB7B700FD08EC /* cvfBoxGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0D0D122BB7B700FD08EC /* cvfBoxGenerator.h */; };
+		D8AB0D25122BB7B700FD08EC /* cvfFrustum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0D0E122BB7B700FD08EC /* cvfFrustum.cpp */; };
+		D8AB0D26122BB7B700FD08EC /* cvfFrustum.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0D0F122BB7B700FD08EC /* cvfFrustum.h */; };
+		D8AB0D27122BB7B700FD08EC /* cvfGeometryBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0D10122BB7B700FD08EC /* cvfGeometryBuilder.cpp */; };
+		D8AB0D28122BB7B700FD08EC /* cvfGeometryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0D11122BB7B700FD08EC /* cvfGeometryBuilder.h */; };
+		D8AB0D29122BB7B700FD08EC /* cvfGeometryBuilderFaceList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0D12122BB7B700FD08EC /* cvfGeometryBuilderFaceList.cpp */; };
+		D8AB0D2A122BB7B700FD08EC /* cvfGeometryBuilderFaceList.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0D13122BB7B700FD08EC /* cvfGeometryBuilderFaceList.h */; };
+		D8AB0D2B122BB7B700FD08EC /* cvfGeometryUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0D14122BB7B700FD08EC /* cvfGeometryUtils.cpp */; };
+		D8AB0D2C122BB7B700FD08EC /* cvfGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0D15122BB7B700FD08EC /* cvfGeometryUtils.h */; };
+		D8AB0D2D122BB7B700FD08EC /* cvfLibGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0D16122BB7B700FD08EC /* cvfLibGeometry.h */; };
+		D8AB0D2E122BB7B700FD08EC /* cvfPatchGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0D17122BB7B700FD08EC /* cvfPatchGenerator.cpp */; };
+		D8AB0D2F122BB7B700FD08EC /* cvfPatchGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0D18122BB7B700FD08EC /* cvfPatchGenerator.h */; };
+		D8AB0D32122BB7B700FD08EC /* cvfRay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0D1B122BB7B700FD08EC /* cvfRay.cpp */; };
+		D8AB0D33122BB7B700FD08EC /* cvfRay.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0D1C122BB7B700FD08EC /* cvfRay.h */; };
+		D8AB0D36122BB7B700FD08EC /* cvfVertexWelder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0D1F122BB7B700FD08EC /* cvfVertexWelder.cpp */; };
+		D8AB0D37122BB7B700FD08EC /* cvfVertexWelder.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0D20122BB7B700FD08EC /* cvfVertexWelder.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* LibGeometry_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibGeometry_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libLibGeometry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibGeometry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8412860131D312D00380542 /* cvfTriangleVertexSplitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfTriangleVertexSplitter.cpp; sourceTree = "<group>"; };
+		D8412861131D312D00380542 /* cvfTriangleVertexSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfTriangleVertexSplitter.h; sourceTree = "<group>"; };
+		D8412862131D312D00380542 /* cvfVertexCompactor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfVertexCompactor.cpp; sourceTree = "<group>"; };
+		D8412863131D312D00380542 /* cvfVertexCompactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfVertexCompactor.h; sourceTree = "<group>"; };
+		D84129271324BC3700380542 /* cvfTriangleMeshEdgeExtractor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfTriangleMeshEdgeExtractor.cpp; sourceTree = "<group>"; };
+		D84129281324BC3700380542 /* cvfTriangleMeshEdgeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfTriangleMeshEdgeExtractor.h; sourceTree = "<group>"; };
+		D8457C24130939D700785013 /* cvfArrowGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfArrowGenerator.cpp; sourceTree = "<group>"; };
+		D8457C25130939D700785013 /* cvfArrowGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfArrowGenerator.h; sourceTree = "<group>"; };
+		D8457C26130939D700785013 /* cvfEdgeKey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfEdgeKey.cpp; sourceTree = "<group>"; };
+		D8457C27130939D700785013 /* cvfEdgeKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfEdgeKey.h; sourceTree = "<group>"; };
+		D8457C28130939D700785013 /* cvfGeometryBuilderTriangles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfGeometryBuilderTriangles.cpp; sourceTree = "<group>"; };
+		D8457C29130939D700785013 /* cvfGeometryBuilderTriangles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfGeometryBuilderTriangles.h; sourceTree = "<group>"; };
+		D8457C2A130939D700785013 /* cvfMeshEdgeExtractor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfMeshEdgeExtractor.cpp; sourceTree = "<group>"; };
+		D8457C2B130939D700785013 /* cvfMeshEdgeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfMeshEdgeExtractor.h; sourceTree = "<group>"; };
+		D8457C2C130939D700785013 /* cvfOutlineEdgeExtractor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOutlineEdgeExtractor.cpp; sourceTree = "<group>"; };
+		D8457C2D130939D700785013 /* cvfOutlineEdgeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOutlineEdgeExtractor.h; sourceTree = "<group>"; };
+		D8AB0D0A122BB7B700FD08EC /* cvfBoundingBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfBoundingBox.cpp; sourceTree = "<group>"; };
+		D8AB0D0B122BB7B700FD08EC /* cvfBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfBoundingBox.h; sourceTree = "<group>"; };
+		D8AB0D0C122BB7B700FD08EC /* cvfBoxGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfBoxGenerator.cpp; sourceTree = "<group>"; };
+		D8AB0D0D122BB7B700FD08EC /* cvfBoxGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfBoxGenerator.h; sourceTree = "<group>"; };
+		D8AB0D0E122BB7B700FD08EC /* cvfFrustum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfFrustum.cpp; sourceTree = "<group>"; };
+		D8AB0D0F122BB7B700FD08EC /* cvfFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfFrustum.h; sourceTree = "<group>"; };
+		D8AB0D10122BB7B700FD08EC /* cvfGeometryBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfGeometryBuilder.cpp; sourceTree = "<group>"; };
+		D8AB0D11122BB7B700FD08EC /* cvfGeometryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfGeometryBuilder.h; sourceTree = "<group>"; };
+		D8AB0D12122BB7B700FD08EC /* cvfGeometryBuilderFaceList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfGeometryBuilderFaceList.cpp; sourceTree = "<group>"; };
+		D8AB0D13122BB7B700FD08EC /* cvfGeometryBuilderFaceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfGeometryBuilderFaceList.h; sourceTree = "<group>"; };
+		D8AB0D14122BB7B700FD08EC /* cvfGeometryUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfGeometryUtils.cpp; sourceTree = "<group>"; };
+		D8AB0D15122BB7B700FD08EC /* cvfGeometryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfGeometryUtils.h; sourceTree = "<group>"; };
+		D8AB0D16122BB7B700FD08EC /* cvfLibGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLibGeometry.h; sourceTree = "<group>"; };
+		D8AB0D17122BB7B700FD08EC /* cvfPatchGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPatchGenerator.cpp; sourceTree = "<group>"; };
+		D8AB0D18122BB7B700FD08EC /* cvfPatchGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPatchGenerator.h; sourceTree = "<group>"; };
+		D8AB0D1B122BB7B700FD08EC /* cvfRay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRay.cpp; sourceTree = "<group>"; };
+		D8AB0D1C122BB7B700FD08EC /* cvfRay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRay.h; sourceTree = "<group>"; };
+		D8AB0D1F122BB7B700FD08EC /* cvfVertexWelder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfVertexWelder.cpp; sourceTree = "<group>"; };
+		D8AB0D20122BB7B700FD08EC /* cvfVertexWelder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfVertexWelder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libLibGeometry.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* LibGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = LibGeometry;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D84129271324BC3700380542 /* cvfTriangleMeshEdgeExtractor.cpp */,
+				D84129281324BC3700380542 /* cvfTriangleMeshEdgeExtractor.h */,
+				D8412860131D312D00380542 /* cvfTriangleVertexSplitter.cpp */,
+				D8412861131D312D00380542 /* cvfTriangleVertexSplitter.h */,
+				D8412862131D312D00380542 /* cvfVertexCompactor.cpp */,
+				D8412863131D312D00380542 /* cvfVertexCompactor.h */,
+				D8457C24130939D700785013 /* cvfArrowGenerator.cpp */,
+				D8457C25130939D700785013 /* cvfArrowGenerator.h */,
+				D8457C26130939D700785013 /* cvfEdgeKey.cpp */,
+				D8457C27130939D700785013 /* cvfEdgeKey.h */,
+				D8457C28130939D700785013 /* cvfGeometryBuilderTriangles.cpp */,
+				D8457C29130939D700785013 /* cvfGeometryBuilderTriangles.h */,
+				D8457C2A130939D700785013 /* cvfMeshEdgeExtractor.cpp */,
+				D8457C2B130939D700785013 /* cvfMeshEdgeExtractor.h */,
+				D8457C2C130939D700785013 /* cvfOutlineEdgeExtractor.cpp */,
+				D8457C2D130939D700785013 /* cvfOutlineEdgeExtractor.h */,
+				D8AB0D0A122BB7B700FD08EC /* cvfBoundingBox.cpp */,
+				D8AB0D0B122BB7B700FD08EC /* cvfBoundingBox.h */,
+				D8AB0D0C122BB7B700FD08EC /* cvfBoxGenerator.cpp */,
+				D8AB0D0D122BB7B700FD08EC /* cvfBoxGenerator.h */,
+				D8AB0D0E122BB7B700FD08EC /* cvfFrustum.cpp */,
+				D8AB0D0F122BB7B700FD08EC /* cvfFrustum.h */,
+				D8AB0D10122BB7B700FD08EC /* cvfGeometryBuilder.cpp */,
+				D8AB0D11122BB7B700FD08EC /* cvfGeometryBuilder.h */,
+				D8AB0D12122BB7B700FD08EC /* cvfGeometryBuilderFaceList.cpp */,
+				D8AB0D13122BB7B700FD08EC /* cvfGeometryBuilderFaceList.h */,
+				D8AB0D14122BB7B700FD08EC /* cvfGeometryUtils.cpp */,
+				D8AB0D15122BB7B700FD08EC /* cvfGeometryUtils.h */,
+				D8AB0D16122BB7B700FD08EC /* cvfLibGeometry.h */,
+				D8AB0D17122BB7B700FD08EC /* cvfPatchGenerator.cpp */,
+				D8AB0D18122BB7B700FD08EC /* cvfPatchGenerator.h */,
+				D8AB0D1B122BB7B700FD08EC /* cvfRay.cpp */,
+				D8AB0D1C122BB7B700FD08EC /* cvfRay.h */,
+				D8AB0D1F122BB7B700FD08EC /* cvfVertexWelder.cpp */,
+				D8AB0D20122BB7B700FD08EC /* cvfVertexWelder.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* LibGeometry_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* LibGeometry_Prefix.pch in Headers */,
+				D8AB0D22122BB7B700FD08EC /* cvfBoundingBox.h in Headers */,
+				D8AB0D24122BB7B700FD08EC /* cvfBoxGenerator.h in Headers */,
+				D8AB0D26122BB7B700FD08EC /* cvfFrustum.h in Headers */,
+				D8AB0D28122BB7B700FD08EC /* cvfGeometryBuilder.h in Headers */,
+				D8AB0D2A122BB7B700FD08EC /* cvfGeometryBuilderFaceList.h in Headers */,
+				D8AB0D2C122BB7B700FD08EC /* cvfGeometryUtils.h in Headers */,
+				D8AB0D2D122BB7B700FD08EC /* cvfLibGeometry.h in Headers */,
+				D8AB0D2F122BB7B700FD08EC /* cvfPatchGenerator.h in Headers */,
+				D8AB0D33122BB7B700FD08EC /* cvfRay.h in Headers */,
+				D8AB0D37122BB7B700FD08EC /* cvfVertexWelder.h in Headers */,
+				D8457C2F130939D700785013 /* cvfArrowGenerator.h in Headers */,
+				D8457C31130939D700785013 /* cvfEdgeKey.h in Headers */,
+				D8457C33130939D700785013 /* cvfGeometryBuilderTriangles.h in Headers */,
+				D8457C35130939D700785013 /* cvfMeshEdgeExtractor.h in Headers */,
+				D8457C37130939D700785013 /* cvfOutlineEdgeExtractor.h in Headers */,
+				D8412865131D312D00380542 /* cvfTriangleVertexSplitter.h in Headers */,
+				D8412867131D312D00380542 /* cvfVertexCompactor.h in Headers */,
+				D841292A1324BC3700380542 /* cvfTriangleMeshEdgeExtractor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* LibGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LibGeometry" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibGeometry;
+			productName = LibGeometry;
+			productReference = D2AAC07E0554694100DB518D /* libLibGeometry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LibGeometry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* LibGeometry */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* LibGeometry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AB0D21122BB7B700FD08EC /* cvfBoundingBox.cpp in Sources */,
+				D8AB0D23122BB7B700FD08EC /* cvfBoxGenerator.cpp in Sources */,
+				D8AB0D25122BB7B700FD08EC /* cvfFrustum.cpp in Sources */,
+				D8AB0D27122BB7B700FD08EC /* cvfGeometryBuilder.cpp in Sources */,
+				D8AB0D29122BB7B700FD08EC /* cvfGeometryBuilderFaceList.cpp in Sources */,
+				D8AB0D2B122BB7B700FD08EC /* cvfGeometryUtils.cpp in Sources */,
+				D8AB0D2E122BB7B700FD08EC /* cvfPatchGenerator.cpp in Sources */,
+				D8AB0D32122BB7B700FD08EC /* cvfRay.cpp in Sources */,
+				D8AB0D36122BB7B700FD08EC /* cvfVertexWelder.cpp in Sources */,
+				D8457C2E130939D700785013 /* cvfArrowGenerator.cpp in Sources */,
+				D8457C30130939D700785013 /* cvfEdgeKey.cpp in Sources */,
+				D8457C32130939D700785013 /* cvfGeometryBuilderTriangles.cpp in Sources */,
+				D8457C34130939D700785013 /* cvfMeshEdgeExtractor.cpp in Sources */,
+				D8457C36130939D700785013 /* cvfOutlineEdgeExtractor.cpp in Sources */,
+				D8412864131D312D00380542 /* cvfTriangleVertexSplitter.cpp in Sources */,
+				D8412866131D312D00380542 /* cvfVertexCompactor.cpp in Sources */,
+				D84129291324BC3700380542 /* cvfTriangleMeshEdgeExtractor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/LibGeometry.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibGeometry_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibGeometry;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/LibGeometry.dst;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibGeometry_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibGeometry;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = CVF_IOS;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../LibCore;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PREPROCESSOR_DEFINITIONS = CVF_IOS;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../LibCore,
+					/Users/fviken/Perforce/CeeVizFramework/dev/LibCore,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/Users/fviken/Perforce/CeeVizFramework/dev/LibCore ../LibCore";
+			};
+			name = Release;
+		};
+		D8AEF40C12663C270008451F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PREPROCESSOR_DEFINITIONS = CVF_IOS;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../LibCore,
+					/Users/fviken/Perforce/CeeVizFramework/dev/LibCore,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/Users/fviken/Perforce/CeeVizFramework/dev/LibCore ../LibCore";
+			};
+			name = Distribution;
+		};
+		D8AEF40D12663C270008451F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/LibGeometry.dst;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibGeometry_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibGeometry;
+				SKIP_INSTALL = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LibGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+				D8AEF40D12663C270008451F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LibGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+				D8AEF40C12663C270008451F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

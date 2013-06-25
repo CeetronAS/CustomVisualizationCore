@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8C7B3751403028D004BF011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C7B3741403028D004BF011 /* Foundation.framework */; };
+		D8C7B39B140304CF004BF011 /* cvfuImageJpeg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C7B385140304CF004BF011 /* cvfuImageJpeg.cpp */; };
+		D8C7B39C140304CF004BF011 /* cvfuImageJpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B386140304CF004BF011 /* cvfuImageJpeg.h */; };
+		D8C7B39D140304CF004BF011 /* cvfuInputEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C7B387140304CF004BF011 /* cvfuInputEvents.cpp */; };
+		D8C7B39E140304CF004BF011 /* cvfuInputEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B388140304CF004BF011 /* cvfuInputEvents.h */; };
+		D8C7B39F140304CF004BF011 /* cvfuInputTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B389140304CF004BF011 /* cvfuInputTypes.h */; };
+		D8C7B3A0140304CF004BF011 /* cvfuLibUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B38A140304CF004BF011 /* cvfuLibUtilities.h */; };
+		D8C7B3A1140304CF004BF011 /* cvfuPartCompoundGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C7B38B140304CF004BF011 /* cvfuPartCompoundGenerator.cpp */; };
+		D8C7B3A2140304CF004BF011 /* cvfuPartCompoundGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B38C140304CF004BF011 /* cvfuPartCompoundGenerator.h */; };
+		D8C7B3A3140304CF004BF011 /* cvfuPointLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C7B38D140304CF004BF011 /* cvfuPointLight.cpp */; };
+		D8C7B3A4140304CF004BF011 /* cvfuPointLight.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B38E140304CF004BF011 /* cvfuPointLight.h */; };
+		D8C7B3A5140304CF004BF011 /* cvfuProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C7B38F140304CF004BF011 /* cvfuProperty.cpp */; };
+		D8C7B3A6140304CF004BF011 /* cvfuProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B390140304CF004BF011 /* cvfuProperty.h */; };
+		D8C7B3A7140304CF004BF011 /* cvfuSampleFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C7B391140304CF004BF011 /* cvfuSampleFactory.cpp */; };
+		D8C7B3A8140304CF004BF011 /* cvfuSampleFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B392140304CF004BF011 /* cvfuSampleFactory.h */; };
+		D8C7B3A9140304CF004BF011 /* cvfuSnippetFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C7B393140304CF004BF011 /* cvfuSnippetFactory.cpp */; };
+		D8C7B3AA140304CF004BF011 /* cvfuSnippetFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B394140304CF004BF011 /* cvfuSnippetFactory.h */; };
+		D8C7B3AB140304CF004BF011 /* cvfuSnippetPropertyPublisher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C7B395140304CF004BF011 /* cvfuSnippetPropertyPublisher.cpp */; };
+		D8C7B3AC140304CF004BF011 /* cvfuSnippetPropertyPublisher.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B396140304CF004BF011 /* cvfuSnippetPropertyPublisher.h */; };
+		D8C7B3AD140304CF004BF011 /* cvfuTestSnippet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C7B397140304CF004BF011 /* cvfuTestSnippet.cpp */; };
+		D8C7B3AE140304CF004BF011 /* cvfuTestSnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B398140304CF004BF011 /* cvfuTestSnippet.h */; };
+		D8C7B3AF140304CF004BF011 /* cvfuWavefrontObjImport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C7B399140304CF004BF011 /* cvfuWavefrontObjImport.cpp */; };
+		D8C7B3B0140304CF004BF011 /* cvfuWavefrontObjImport.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7B39A140304CF004BF011 /* cvfuWavefrontObjImport.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8C7B3711403028D004BF011 /* libLibUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C7B3741403028D004BF011 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8C7B385140304CF004BF011 /* cvfuImageJpeg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfuImageJpeg.cpp; sourceTree = SOURCE_ROOT; };
+		D8C7B386140304CF004BF011 /* cvfuImageJpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuImageJpeg.h; sourceTree = SOURCE_ROOT; };
+		D8C7B387140304CF004BF011 /* cvfuInputEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfuInputEvents.cpp; sourceTree = SOURCE_ROOT; };
+		D8C7B388140304CF004BF011 /* cvfuInputEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuInputEvents.h; sourceTree = SOURCE_ROOT; };
+		D8C7B389140304CF004BF011 /* cvfuInputTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuInputTypes.h; sourceTree = SOURCE_ROOT; };
+		D8C7B38A140304CF004BF011 /* cvfuLibUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuLibUtilities.h; sourceTree = SOURCE_ROOT; };
+		D8C7B38B140304CF004BF011 /* cvfuPartCompoundGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfuPartCompoundGenerator.cpp; sourceTree = SOURCE_ROOT; };
+		D8C7B38C140304CF004BF011 /* cvfuPartCompoundGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuPartCompoundGenerator.h; sourceTree = SOURCE_ROOT; };
+		D8C7B38D140304CF004BF011 /* cvfuPointLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfuPointLight.cpp; sourceTree = SOURCE_ROOT; };
+		D8C7B38E140304CF004BF011 /* cvfuPointLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuPointLight.h; sourceTree = SOURCE_ROOT; };
+		D8C7B38F140304CF004BF011 /* cvfuProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfuProperty.cpp; sourceTree = SOURCE_ROOT; };
+		D8C7B390140304CF004BF011 /* cvfuProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuProperty.h; sourceTree = SOURCE_ROOT; };
+		D8C7B391140304CF004BF011 /* cvfuSampleFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfuSampleFactory.cpp; sourceTree = SOURCE_ROOT; };
+		D8C7B392140304CF004BF011 /* cvfuSampleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuSampleFactory.h; sourceTree = SOURCE_ROOT; };
+		D8C7B393140304CF004BF011 /* cvfuSnippetFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfuSnippetFactory.cpp; sourceTree = SOURCE_ROOT; };
+		D8C7B394140304CF004BF011 /* cvfuSnippetFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuSnippetFactory.h; sourceTree = SOURCE_ROOT; };
+		D8C7B395140304CF004BF011 /* cvfuSnippetPropertyPublisher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfuSnippetPropertyPublisher.cpp; sourceTree = SOURCE_ROOT; };
+		D8C7B396140304CF004BF011 /* cvfuSnippetPropertyPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuSnippetPropertyPublisher.h; sourceTree = SOURCE_ROOT; };
+		D8C7B397140304CF004BF011 /* cvfuTestSnippet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfuTestSnippet.cpp; sourceTree = SOURCE_ROOT; };
+		D8C7B398140304CF004BF011 /* cvfuTestSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuTestSnippet.h; sourceTree = SOURCE_ROOT; };
+		D8C7B399140304CF004BF011 /* cvfuWavefrontObjImport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfuWavefrontObjImport.cpp; sourceTree = SOURCE_ROOT; };
+		D8C7B39A140304CF004BF011 /* cvfuWavefrontObjImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfuWavefrontObjImport.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8C7B36E1403028D004BF011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C7B3751403028D004BF011 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8C7B3661403028D004BF011 = {
+			isa = PBXGroup;
+			children = (
+				D8C7B3761403028D004BF011 /* LibUtilities */,
+				D8C7B3731403028D004BF011 /* Frameworks */,
+				D8C7B3721403028D004BF011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8C7B3721403028D004BF011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8C7B3711403028D004BF011 /* libLibUtilities.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8C7B3731403028D004BF011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C7B3741403028D004BF011 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8C7B3761403028D004BF011 /* LibUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D8C7B385140304CF004BF011 /* cvfuImageJpeg.cpp */,
+				D8C7B386140304CF004BF011 /* cvfuImageJpeg.h */,
+				D8C7B387140304CF004BF011 /* cvfuInputEvents.cpp */,
+				D8C7B388140304CF004BF011 /* cvfuInputEvents.h */,
+				D8C7B389140304CF004BF011 /* cvfuInputTypes.h */,
+				D8C7B38A140304CF004BF011 /* cvfuLibUtilities.h */,
+				D8C7B38B140304CF004BF011 /* cvfuPartCompoundGenerator.cpp */,
+				D8C7B38C140304CF004BF011 /* cvfuPartCompoundGenerator.h */,
+				D8C7B38D140304CF004BF011 /* cvfuPointLight.cpp */,
+				D8C7B38E140304CF004BF011 /* cvfuPointLight.h */,
+				D8C7B38F140304CF004BF011 /* cvfuProperty.cpp */,
+				D8C7B390140304CF004BF011 /* cvfuProperty.h */,
+				D8C7B391140304CF004BF011 /* cvfuSampleFactory.cpp */,
+				D8C7B392140304CF004BF011 /* cvfuSampleFactory.h */,
+				D8C7B393140304CF004BF011 /* cvfuSnippetFactory.cpp */,
+				D8C7B394140304CF004BF011 /* cvfuSnippetFactory.h */,
+				D8C7B395140304CF004BF011 /* cvfuSnippetPropertyPublisher.cpp */,
+				D8C7B396140304CF004BF011 /* cvfuSnippetPropertyPublisher.h */,
+				D8C7B397140304CF004BF011 /* cvfuTestSnippet.cpp */,
+				D8C7B398140304CF004BF011 /* cvfuTestSnippet.h */,
+				D8C7B399140304CF004BF011 /* cvfuWavefrontObjImport.cpp */,
+				D8C7B39A140304CF004BF011 /* cvfuWavefrontObjImport.h */,
+			);
+			path = LibUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D8C7B36F1403028D004BF011 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C7B39C140304CF004BF011 /* cvfuImageJpeg.h in Headers */,
+				D8C7B39E140304CF004BF011 /* cvfuInputEvents.h in Headers */,
+				D8C7B39F140304CF004BF011 /* cvfuInputTypes.h in Headers */,
+				D8C7B3A0140304CF004BF011 /* cvfuLibUtilities.h in Headers */,
+				D8C7B3A2140304CF004BF011 /* cvfuPartCompoundGenerator.h in Headers */,
+				D8C7B3A4140304CF004BF011 /* cvfuPointLight.h in Headers */,
+				D8C7B3A6140304CF004BF011 /* cvfuProperty.h in Headers */,
+				D8C7B3A8140304CF004BF011 /* cvfuSampleFactory.h in Headers */,
+				D8C7B3AA140304CF004BF011 /* cvfuSnippetFactory.h in Headers */,
+				D8C7B3AC140304CF004BF011 /* cvfuSnippetPropertyPublisher.h in Headers */,
+				D8C7B3AE140304CF004BF011 /* cvfuTestSnippet.h in Headers */,
+				D8C7B3B0140304CF004BF011 /* cvfuWavefrontObjImport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D8C7B3701403028D004BF011 /* LibUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C7B37E1403028D004BF011 /* Build configuration list for PBXNativeTarget "LibUtilities" */;
+			buildPhases = (
+				D8C7B36D1403028D004BF011 /* Sources */,
+				D8C7B36E1403028D004BF011 /* Frameworks */,
+				D8C7B36F1403028D004BF011 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibUtilities;
+			productName = LibUtilities;
+			productReference = D8C7B3711403028D004BF011 /* libLibUtilities.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8C7B3681403028D004BF011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D8C7B36B1403028D004BF011 /* Build configuration list for PBXProject "LibUtilities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8C7B3661403028D004BF011;
+			productRefGroup = D8C7B3721403028D004BF011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8C7B3701403028D004BF011 /* LibUtilities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8C7B36D1403028D004BF011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C7B39B140304CF004BF011 /* cvfuImageJpeg.cpp in Sources */,
+				D8C7B39D140304CF004BF011 /* cvfuInputEvents.cpp in Sources */,
+				D8C7B3A1140304CF004BF011 /* cvfuPartCompoundGenerator.cpp in Sources */,
+				D8C7B3A3140304CF004BF011 /* cvfuPointLight.cpp in Sources */,
+				D8C7B3A5140304CF004BF011 /* cvfuProperty.cpp in Sources */,
+				D8C7B3A7140304CF004BF011 /* cvfuSampleFactory.cpp in Sources */,
+				D8C7B3A9140304CF004BF011 /* cvfuSnippetFactory.cpp in Sources */,
+				D8C7B3AB140304CF004BF011 /* cvfuSnippetPropertyPublisher.cpp in Sources */,
+				D8C7B3AD140304CF004BF011 /* cvfuTestSnippet.cpp in Sources */,
+				D8C7B3AF140304CF004BF011 /* cvfuWavefrontObjImport.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D8C7B37C1403028D004BF011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CVF_IOS,
+					CVF_OPENGL_ES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../LibCore,
+					../LibRender,
+					../LibGeometry,
+					../LibViewing,
+					../LibIo,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8C7B37D1403028D004BF011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CVF_IOS,
+					CVF_OPENGL_ES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../LibCore,
+					../LibRender,
+					../LibGeometry,
+					../LibViewing,
+					../LibIo,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8C7B37F1403028D004BF011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LibUtilities.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D8C7B3801403028D004BF011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LibUtilities.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8C7B36B1403028D004BF011 /* Build configuration list for PBXProject "LibUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C7B37C1403028D004BF011 /* Debug */,
+				D8C7B37D1403028D004BF011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C7B37E1403028D004BF011 /* Build configuration list for PBXNativeTarget "LibUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C7B37F1403028D004BF011 /* Debug */,
+				D8C7B3801403028D004BF011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8C7B3681403028D004BF011 /* Project object */;
+}

@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731C3A6C14287417005D52C7 /* cvfPrimitiveSetDirect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 731C3A6A14287417005D52C7 /* cvfPrimitiveSetDirect.cpp */; };
+		731C3A6D14287417005D52C7 /* cvfPrimitiveSetDirect.h in Headers */ = {isa = PBXBuildFile; fileRef = 731C3A6B14287417005D52C7 /* cvfPrimitiveSetDirect.h */; };
+		AA747D9F0F9514B9006C5449 /* LibRender_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LibRender_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D83DD42B141F8E930086695B /* cvfVertexAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D83DD427141F8E930086695B /* cvfVertexAttribute.cpp */; };
+		D83DD42C141F8E930086695B /* cvfVertexAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = D83DD428141F8E930086695B /* cvfVertexAttribute.h */; };
+		D8457C5813093A4200785013 /* cvfDrawableVectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C4813093A4200785013 /* cvfDrawableVectors.cpp */; };
+		D8457C5913093A4200785013 /* cvfDrawableVectors.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C4913093A4200785013 /* cvfDrawableVectors.h */; };
+		D8457C5A13093A4200785013 /* cvfOpenGLContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C4A13093A4200785013 /* cvfOpenGLContext.cpp */; };
+		D8457C5B13093A4200785013 /* cvfOpenGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C4B13093A4200785013 /* cvfOpenGLContext.h */; };
+		D8457C5C13093A4200785013 /* cvfOverlayColorLegend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C4C13093A4200785013 /* cvfOverlayColorLegend.cpp */; };
+		D8457C5D13093A4200785013 /* cvfOverlayColorLegend.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C4D13093A4200785013 /* cvfOverlayColorLegend.h */; };
+		D8457C5E13093A4200785013 /* cvfSampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C4E13093A4200785013 /* cvfSampler.cpp */; };
+		D8457C5F13093A4200785013 /* cvfSampler.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C4F13093A4200785013 /* cvfSampler.h */; };
+		D8457C6013093A4200785013 /* cvfScalarMapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C5013093A4200785013 /* cvfScalarMapper.cpp */; };
+		D8457C6113093A4200785013 /* cvfScalarMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C5113093A4200785013 /* cvfScalarMapper.h */; };
+		D8457C6213093A4200785013 /* cvfTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C5213093A4200785013 /* cvfTexture.cpp */; };
+		D8457C6313093A4200785013 /* cvfTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C5313093A4200785013 /* cvfTexture.h */; };
+		D8457C6413093A4200785013 /* cvfTextureImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8457C5413093A4200785013 /* cvfTextureImage.cpp */; };
+		D8457C6513093A4200785013 /* cvfTextureImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D8457C5513093A4200785013 /* cvfTextureImage.h */; };
+		D8458138130C02A800785013 /* cvfBufferObjectManaged.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8458136130C02A800785013 /* cvfBufferObjectManaged.cpp */; };
+		D8458139130C02A800785013 /* cvfBufferObjectManaged.h in Headers */ = {isa = PBXBuildFile; fileRef = D8458137130C02A800785013 /* cvfBufferObjectManaged.h */; };
+		D853A74B1383F4EE00833859 /* cvfPrimitiveSetIndexedUIntScoped.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D853A7491383F4EE00833859 /* cvfPrimitiveSetIndexedUIntScoped.cpp */; };
+		D853A74C1383F4EE00833859 /* cvfPrimitiveSetIndexedUIntScoped.h in Headers */ = {isa = PBXBuildFile; fileRef = D853A74A1383F4EE00833859 /* cvfPrimitiveSetIndexedUIntScoped.h */; };
+		D8602278130EA3F70029B639 /* cvfScalarMapperUniformLevels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8602276130EA3F70029B639 /* cvfScalarMapperUniformLevels.cpp */; };
+		D8602279130EA3F70029B639 /* cvfScalarMapperUniformLevels.h in Headers */ = {isa = PBXBuildFile; fileRef = D8602277130EA3F70029B639 /* cvfScalarMapperUniformLevels.h */; };
+		D87BFE841240AEB600AE47A1 /* cvfUniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D87BFE801240AEB600AE47A1 /* cvfUniform.cpp */; };
+		D87BFE851240AEB600AE47A1 /* cvfUniform.h in Headers */ = {isa = PBXBuildFile; fileRef = D87BFE811240AEB600AE47A1 /* cvfUniform.h */; };
+		D87BFE861240AEB600AE47A1 /* cvfUniformSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D87BFE821240AEB600AE47A1 /* cvfUniformSet.cpp */; };
+		D87BFE871240AEB600AE47A1 /* cvfUniformSet.h in Headers */ = {isa = PBXBuildFile; fileRef = D87BFE831240AEB600AE47A1 /* cvfUniformSet.h */; };
+		D882CC901338C4A000F12B68 /* cvfFrameBufferObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CC861338C4A000F12B68 /* cvfFrameBufferObject.cpp */; };
+		D882CC911338C4A000F12B68 /* cvfFrameBufferObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CC871338C4A000F12B68 /* cvfFrameBufferObject.h */; };
+		D882CC921338C4A000F12B68 /* cvfRenderBufferObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CC881338C4A000F12B68 /* cvfRenderBufferObject.cpp */; };
+		D882CC931338C4A000F12B68 /* cvfRenderBufferObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CC891338C4A000F12B68 /* cvfRenderBufferObject.h */; };
+		D882CC961338C4A000F12B68 /* cvfRenderStateTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CC8C1338C4A000F12B68 /* cvfRenderStateTracker.cpp */; };
+		D882CC971338C4A000F12B68 /* cvfRenderStateTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CC8D1338C4A000F12B68 /* cvfRenderStateTracker.h */; };
+		D882CD83136EAB3000F12B68 /* cvfDrawableText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CD73136EAB3000F12B68 /* cvfDrawableText.cpp */; };
+		D882CD84136EAB3000F12B68 /* cvfDrawableText.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CD74136EAB3000F12B68 /* cvfDrawableText.h */; };
+		D882CD85136EAB3000F12B68 /* cvfFixedAtlasFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CD75136EAB3000F12B68 /* cvfFixedAtlasFont.cpp */; };
+		D882CD86136EAB3000F12B68 /* cvfFixedAtlasFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CD76136EAB3000F12B68 /* cvfFixedAtlasFont.h */; };
+		D882CD87136EAB3000F12B68 /* cvfFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CD77136EAB3000F12B68 /* cvfFont.cpp */; };
+		D882CD88136EAB3000F12B68 /* cvfFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CD78136EAB3000F12B68 /* cvfFont.h */; };
+		D882CD89136EAB3000F12B68 /* cvfFontManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CD79136EAB3000F12B68 /* cvfFontManager.cpp */; };
+		D882CD8A136EAB3000F12B68 /* cvfFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CD7A136EAB3000F12B68 /* cvfFontManager.h */; };
+		D882CD8B136EAB3000F12B68 /* cvfGlyph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CD7B136EAB3000F12B68 /* cvfGlyph.cpp */; };
+		D882CD8C136EAB3000F12B68 /* cvfGlyph.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CD7C136EAB3000F12B68 /* cvfGlyph.h */; };
+		D882CD8D136EAB3000F12B68 /* cvfMatrixState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CD7D136EAB3000F12B68 /* cvfMatrixState.cpp */; };
+		D882CD8E136EAB3000F12B68 /* cvfMatrixState.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CD7E136EAB3000F12B68 /* cvfMatrixState.h */; };
+		D882CD8F136EAB3000F12B68 /* cvfShaderSourceRepositoryFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CD7F136EAB3000F12B68 /* cvfShaderSourceRepositoryFile.cpp */; };
+		D882CD90136EAB3000F12B68 /* cvfShaderSourceRepositoryFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CD80136EAB3000F12B68 /* cvfShaderSourceRepositoryFile.h */; };
+		D882CD91136EAB3000F12B68 /* cvfTextDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CD81136EAB3000F12B68 /* cvfTextDrawer.cpp */; };
+		D882CD92136EAB3000F12B68 /* cvfTextDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CD82136EAB3000F12B68 /* cvfTextDrawer.h */; };
+		D882CF851371309E00F12B68 /* cvfShaderProgramGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CF811371309E00F12B68 /* cvfShaderProgramGenerator.cpp */; };
+		D882CF861371309E00F12B68 /* cvfShaderProgramGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CF821371309E00F12B68 /* cvfShaderProgramGenerator.h */; };
+		D882CF871371309E00F12B68 /* cvfShaderSourceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CF831371309E00F12B68 /* cvfShaderSourceProvider.cpp */; };
+		D882CF881371309E00F12B68 /* cvfShaderSourceProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CF841371309E00F12B68 /* cvfShaderSourceProvider.h */; };
+		D8883ADF175934A400D6C6F5 /* cvfCameraAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8883AD9175934A400D6C6F5 /* cvfCameraAnimation.cpp */; };
+		D8883AE0175934A400D6C6F5 /* cvfCameraAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D8883ADA175934A400D6C6F5 /* cvfCameraAnimation.h */; };
+		D8883AE1175934A400D6C6F5 /* cvfOverlayImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8883ADB175934A400D6C6F5 /* cvfOverlayImage.cpp */; };
+		D8883AE2175934A400D6C6F5 /* cvfOverlayImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D8883ADC175934A400D6C6F5 /* cvfOverlayImage.h */; };
+		D8883AE3175934A400D6C6F5 /* cvfOverlayNavigationCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8883ADD175934A400D6C6F5 /* cvfOverlayNavigationCube.cpp */; };
+		D8883AE4175934A400D6C6F5 /* cvfOverlayNavigationCube.h in Headers */ = {isa = PBXBuildFile; fileRef = D8883ADE175934A400D6C6F5 /* cvfOverlayNavigationCube.h */; };
+		D8AB0DDD122BC26F00FD08EC /* cvfCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DB5122BC26F00FD08EC /* cvfCamera.cpp */; };
+		D8AB0DDE122BC26F00FD08EC /* cvfCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DB6122BC26F00FD08EC /* cvfCamera.h */; };
+		D8AB0DDF122BC26F00FD08EC /* cvfDrawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DB7122BC26F00FD08EC /* cvfDrawable.cpp */; };
+		D8AB0DE0122BC26F00FD08EC /* cvfDrawable.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DB8122BC26F00FD08EC /* cvfDrawable.h */; };
+		D8AB0DE1122BC26F00FD08EC /* cvfDrawableGeo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DB9122BC26F00FD08EC /* cvfDrawableGeo.cpp */; };
+		D8AB0DE2122BC26F00FD08EC /* cvfDrawableGeo.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DBA122BC26F00FD08EC /* cvfDrawableGeo.h */; };
+		D8AB0DE3122BC26F00FD08EC /* cvfGeometryBuilderDrawableGeo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DBB122BC26F00FD08EC /* cvfGeometryBuilderDrawableGeo.cpp */; };
+		D8AB0DE4122BC26F00FD08EC /* cvfGeometryBuilderDrawableGeo.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DBC122BC26F00FD08EC /* cvfGeometryBuilderDrawableGeo.h */; };
+		D8AB0DE5122BC26F00FD08EC /* cvfLibRender.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DBD122BC26F00FD08EC /* cvfLibRender.h */; };
+		D8AB0DE6122BC26F00FD08EC /* cvfOpenGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DBE122BC26F00FD08EC /* cvfOpenGL.cpp */; };
+		D8AB0DE7122BC26F00FD08EC /* cvfOpenGL.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DBF122BC26F00FD08EC /* cvfOpenGL.h */; };
+		D8AB0DEA122BC26F00FD08EC /* cvfOpenGLResourceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DC2122BC26F00FD08EC /* cvfOpenGLResourceManager.cpp */; };
+		D8AB0DEB122BC26F00FD08EC /* cvfOpenGLResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DC3122BC26F00FD08EC /* cvfOpenGLResourceManager.h */; };
+		D8AB0DEC122BC26F00FD08EC /* cvfOpenGLTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DC4122BC26F00FD08EC /* cvfOpenGLTypes.h */; };
+		D8AB0DED122BC26F00FD08EC /* cvfOverlayAxisCross.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DC5122BC26F00FD08EC /* cvfOverlayAxisCross.cpp */; };
+		D8AB0DEE122BC26F00FD08EC /* cvfOverlayAxisCross.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DC6122BC26F00FD08EC /* cvfOverlayAxisCross.h */; };
+		D8AB0DEF122BC26F00FD08EC /* cvfPrimitiveSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DC7122BC26F00FD08EC /* cvfPrimitiveSet.cpp */; };
+		D8AB0DF0122BC26F00FD08EC /* cvfPrimitiveSet.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DC8122BC26F00FD08EC /* cvfPrimitiveSet.h */; };
+		D8AB0DF1122BC26F00FD08EC /* cvfPrimitiveSetIndexedUInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DC9122BC26F00FD08EC /* cvfPrimitiveSetIndexedUInt.cpp */; };
+		D8AB0DF2122BC26F00FD08EC /* cvfPrimitiveSetIndexedUInt.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DCA122BC26F00FD08EC /* cvfPrimitiveSetIndexedUInt.h */; };
+		D8AB0DF3122BC26F00FD08EC /* cvfPrimitiveSetIndexedUShort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DCB122BC26F00FD08EC /* cvfPrimitiveSetIndexedUShort.cpp */; };
+		D8AB0DF4122BC26F00FD08EC /* cvfPrimitiveSetIndexedUShort.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DCC122BC26F00FD08EC /* cvfPrimitiveSetIndexedUShort.h */; };
+		D8AB0DF5122BC26F00FD08EC /* cvfRenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DCD122BC26F00FD08EC /* cvfRenderState.cpp */; };
+		D8AB0DF6122BC26F00FD08EC /* cvfRenderState.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DCE122BC26F00FD08EC /* cvfRenderState.h */; };
+		D8AB0DF7122BC26F00FD08EC /* cvfRenderStateSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DCF122BC26F00FD08EC /* cvfRenderStateSet.cpp */; };
+		D8AB0DF8122BC26F00FD08EC /* cvfRenderStateSet.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DD0122BC26F00FD08EC /* cvfRenderStateSet.h */; };
+		D8AB0DF9122BC26F00FD08EC /* cvfShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DD1122BC26F00FD08EC /* cvfShader.cpp */; };
+		D8AB0DFA122BC26F00FD08EC /* cvfShader.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DD2122BC26F00FD08EC /* cvfShader.h */; };
+		D8AB0DFB122BC26F00FD08EC /* cvfShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DD3122BC26F00FD08EC /* cvfShaderProgram.cpp */; };
+		D8AB0DFC122BC26F00FD08EC /* cvfShaderProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DD4122BC26F00FD08EC /* cvfShaderProgram.h */; };
+		D8AB0DFD122BC26F00FD08EC /* cvfViewport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0DD5122BC26F00FD08EC /* cvfViewport.cpp */; };
+		D8AB0DFE122BC26F00FD08EC /* cvfViewport.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0DD6122BC26F00FD08EC /* cvfViewport.h */; };
+		D8ACB4041410EE5400E3B9A7 /* cvfPrimitiveSetIndexedUShortScoped.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8ACB3FE1410EE5400E3B9A7 /* cvfPrimitiveSetIndexedUShortScoped.cpp */; };
+		D8ACB4051410EE5400E3B9A7 /* cvfPrimitiveSetIndexedUShortScoped.h in Headers */ = {isa = PBXBuildFile; fileRef = D8ACB3FF1410EE5400E3B9A7 /* cvfPrimitiveSetIndexedUShortScoped.h */; };
+		D8AEF54E12665AEB0008451F /* cvfShaderSourceRepository.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AEF54C12665AEB0008451F /* cvfShaderSourceRepository.cpp */; };
+		D8AEF54F12665AEB0008451F /* cvfShaderSourceRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AEF54D12665AEB0008451F /* cvfShaderSourceRepository.h */; };
+		D8BC7F071591C9C70020F1A8 /* cvfRenderStateStencil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC7F051591C9C70020F1A8 /* cvfRenderStateStencil.cpp */; };
+		D8BC7F081591C9C70020F1A8 /* cvfRenderStateStencil.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC7F061591C9C70020F1A8 /* cvfRenderStateStencil.h */; };
+		D8BC9441153B008E00460BFE /* cvfOverlayItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC9428153B008E00460BFE /* cvfOverlayItem.cpp */; };
+		D8BC9442153B008E00460BFE /* cvfOverlayTextBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC9429153B008E00460BFE /* cvfOverlayTextBox.cpp */; };
+		D8BC9443153B008E00460BFE /* cvfOverlayTextBox.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC942A153B008E00460BFE /* cvfOverlayTextBox.h */; };
+		D8BC9444153B008E00460BFE /* cvfRenderStateBlending.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC942B153B008E00460BFE /* cvfRenderStateBlending.cpp */; };
+		D8BC9445153B008E00460BFE /* cvfRenderStateBlending.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC942C153B008E00460BFE /* cvfRenderStateBlending.h */; };
+		D8BC9446153B008E00460BFE /* cvfRenderStateColorMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC942D153B008E00460BFE /* cvfRenderStateColorMask.cpp */; };
+		D8BC9447153B008E00460BFE /* cvfRenderStateColorMask.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC942E153B008E00460BFE /* cvfRenderStateColorMask.h */; };
+		D8BC9448153B008E00460BFE /* cvfRenderStateCullFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC942F153B008E00460BFE /* cvfRenderStateCullFace.cpp */; };
+		D8BC9449153B008E00460BFE /* cvfRenderStateCullFace.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC9430153B008E00460BFE /* cvfRenderStateCullFace.h */; };
+		D8BC944A153B008E00460BFE /* cvfRenderStateDepth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC9431153B008E00460BFE /* cvfRenderStateDepth.cpp */; };
+		D8BC944B153B008E00460BFE /* cvfRenderStateDepth.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC9432153B008E00460BFE /* cvfRenderStateDepth.h */; };
+		D8BC944C153B008E00460BFE /* cvfRenderStateFrontFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC9433153B008E00460BFE /* cvfRenderStateFrontFace.cpp */; };
+		D8BC944D153B008E00460BFE /* cvfRenderStateFrontFace.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC9434153B008E00460BFE /* cvfRenderStateFrontFace.h */; };
+		D8BC944E153B008E00460BFE /* cvfRenderStateLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC9435153B008E00460BFE /* cvfRenderStateLine.cpp */; };
+		D8BC944F153B008E00460BFE /* cvfRenderStateLine.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC9436153B008E00460BFE /* cvfRenderStateLine.h */; };
+		D8BC9450153B008E00460BFE /* cvfRenderStatePoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC9437153B008E00460BFE /* cvfRenderStatePoint.cpp */; };
+		D8BC9451153B008E00460BFE /* cvfRenderStatePoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC9438153B008E00460BFE /* cvfRenderStatePoint.h */; };
+		D8BC9452153B008E00460BFE /* cvfRenderStatePolygonMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC9439153B008E00460BFE /* cvfRenderStatePolygonMode.cpp */; };
+		D8BC9453153B008E00460BFE /* cvfRenderStatePolygonMode.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC943A153B008E00460BFE /* cvfRenderStatePolygonMode.h */; };
+		D8BC9454153B008E00460BFE /* cvfRenderStatePolygonOffset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC943B153B008E00460BFE /* cvfRenderStatePolygonOffset.cpp */; };
+		D8BC9455153B008E00460BFE /* cvfRenderStatePolygonOffset.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC943C153B008E00460BFE /* cvfRenderStatePolygonOffset.h */; };
+		D8BC9456153B008E00460BFE /* cvfRenderStateTextureBindings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC943D153B008E00460BFE /* cvfRenderStateTextureBindings.cpp */; };
+		D8BC9457153B008E00460BFE /* cvfRenderStateTextureBindings.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC943E153B008E00460BFE /* cvfRenderStateTextureBindings.h */; };
+		D8BC9458153B008E00460BFE /* cvfVertexBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC943F153B008E00460BFE /* cvfVertexBundle.cpp */; };
+		D8BC9459153B008E00460BFE /* cvfVertexBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC9440153B008E00460BFE /* cvfVertexBundle.h */; };
+		D8C3F6B6138E65AE000298D5 /* cvfShaderSourceStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C3F6B5138E65AE000298D5 /* cvfShaderSourceStrings.h */; };
+		D8CA1F2114730732003EB29D /* cvfHitDetail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8CA1F1814730732003EB29D /* cvfHitDetail.cpp */; };
+		D8CA1F2214730732003EB29D /* cvfHitDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA1F1914730732003EB29D /* cvfHitDetail.h */; };
+		D8CA1F2314730732003EB29D /* cvfOglRc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8CA1F1A14730732003EB29D /* cvfOglRc.cpp */; };
+		D8CA1F2414730732003EB29D /* cvfOglRc.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA1F1B14730732003EB29D /* cvfOglRc.h */; };
+		D8CA1F2514730732003EB29D /* cvfOpenGLCapabilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8CA1F1C14730732003EB29D /* cvfOpenGLCapabilities.cpp */; };
+		D8CA1F2614730732003EB29D /* cvfOpenGLCapabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA1F1D14730732003EB29D /* cvfOpenGLCapabilities.h */; };
+		D8CA1F2714730732003EB29D /* cvfOpenGLContextGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8CA1F1E14730732003EB29D /* cvfOpenGLContextGroup.cpp */; };
+		D8CA1F2814730732003EB29D /* cvfOpenGLContextGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA1F1F14730732003EB29D /* cvfOpenGLContextGroup.h */; };
+		D8CA1F2914730732003EB29D /* cvfOverlayItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA1F2014730732003EB29D /* cvfOverlayItem.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		731C3A6A14287417005D52C7 /* cvfPrimitiveSetDirect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPrimitiveSetDirect.cpp; sourceTree = "<group>"; };
+		731C3A6B14287417005D52C7 /* cvfPrimitiveSetDirect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPrimitiveSetDirect.h; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* LibRender_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibRender_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libLibRender.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibRender.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83DD427141F8E930086695B /* cvfVertexAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfVertexAttribute.cpp; sourceTree = "<group>"; };
+		D83DD428141F8E930086695B /* cvfVertexAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfVertexAttribute.h; sourceTree = "<group>"; };
+		D8457C4813093A4200785013 /* cvfDrawableVectors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfDrawableVectors.cpp; sourceTree = "<group>"; };
+		D8457C4913093A4200785013 /* cvfDrawableVectors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfDrawableVectors.h; sourceTree = "<group>"; };
+		D8457C4A13093A4200785013 /* cvfOpenGLContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOpenGLContext.cpp; sourceTree = "<group>"; };
+		D8457C4B13093A4200785013 /* cvfOpenGLContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOpenGLContext.h; sourceTree = "<group>"; };
+		D8457C4C13093A4200785013 /* cvfOverlayColorLegend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOverlayColorLegend.cpp; sourceTree = "<group>"; };
+		D8457C4D13093A4200785013 /* cvfOverlayColorLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOverlayColorLegend.h; sourceTree = "<group>"; };
+		D8457C4E13093A4200785013 /* cvfSampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfSampler.cpp; sourceTree = "<group>"; };
+		D8457C4F13093A4200785013 /* cvfSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfSampler.h; sourceTree = "<group>"; };
+		D8457C5013093A4200785013 /* cvfScalarMapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfScalarMapper.cpp; sourceTree = "<group>"; };
+		D8457C5113093A4200785013 /* cvfScalarMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfScalarMapper.h; sourceTree = "<group>"; };
+		D8457C5213093A4200785013 /* cvfTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfTexture.cpp; sourceTree = "<group>"; };
+		D8457C5313093A4200785013 /* cvfTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfTexture.h; sourceTree = "<group>"; };
+		D8457C5413093A4200785013 /* cvfTextureImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfTextureImage.cpp; sourceTree = "<group>"; };
+		D8457C5513093A4200785013 /* cvfTextureImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfTextureImage.h; sourceTree = "<group>"; };
+		D8458136130C02A800785013 /* cvfBufferObjectManaged.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfBufferObjectManaged.cpp; sourceTree = "<group>"; };
+		D8458137130C02A800785013 /* cvfBufferObjectManaged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfBufferObjectManaged.h; sourceTree = "<group>"; };
+		D853A7491383F4EE00833859 /* cvfPrimitiveSetIndexedUIntScoped.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPrimitiveSetIndexedUIntScoped.cpp; sourceTree = "<group>"; };
+		D853A74A1383F4EE00833859 /* cvfPrimitiveSetIndexedUIntScoped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPrimitiveSetIndexedUIntScoped.h; sourceTree = "<group>"; };
+		D8602276130EA3F70029B639 /* cvfScalarMapperUniformLevels.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfScalarMapperUniformLevels.cpp; sourceTree = "<group>"; };
+		D8602277130EA3F70029B639 /* cvfScalarMapperUniformLevels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfScalarMapperUniformLevels.h; sourceTree = "<group>"; };
+		D87BFE801240AEB600AE47A1 /* cvfUniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfUniform.cpp; sourceTree = "<group>"; };
+		D87BFE811240AEB600AE47A1 /* cvfUniform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfUniform.h; sourceTree = "<group>"; };
+		D87BFE821240AEB600AE47A1 /* cvfUniformSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfUniformSet.cpp; sourceTree = "<group>"; };
+		D87BFE831240AEB600AE47A1 /* cvfUniformSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfUniformSet.h; sourceTree = "<group>"; };
+		D882CC861338C4A000F12B68 /* cvfFrameBufferObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfFrameBufferObject.cpp; sourceTree = "<group>"; };
+		D882CC871338C4A000F12B68 /* cvfFrameBufferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfFrameBufferObject.h; sourceTree = "<group>"; };
+		D882CC881338C4A000F12B68 /* cvfRenderBufferObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderBufferObject.cpp; sourceTree = "<group>"; };
+		D882CC891338C4A000F12B68 /* cvfRenderBufferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderBufferObject.h; sourceTree = "<group>"; };
+		D882CC8C1338C4A000F12B68 /* cvfRenderStateTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStateTracker.cpp; sourceTree = "<group>"; };
+		D882CC8D1338C4A000F12B68 /* cvfRenderStateTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStateTracker.h; sourceTree = "<group>"; };
+		D882CD73136EAB3000F12B68 /* cvfDrawableText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfDrawableText.cpp; sourceTree = "<group>"; };
+		D882CD74136EAB3000F12B68 /* cvfDrawableText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfDrawableText.h; sourceTree = "<group>"; };
+		D882CD75136EAB3000F12B68 /* cvfFixedAtlasFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfFixedAtlasFont.cpp; sourceTree = "<group>"; };
+		D882CD76136EAB3000F12B68 /* cvfFixedAtlasFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfFixedAtlasFont.h; sourceTree = "<group>"; };
+		D882CD77136EAB3000F12B68 /* cvfFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfFont.cpp; sourceTree = "<group>"; };
+		D882CD78136EAB3000F12B68 /* cvfFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfFont.h; sourceTree = "<group>"; };
+		D882CD79136EAB3000F12B68 /* cvfFontManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfFontManager.cpp; sourceTree = "<group>"; };
+		D882CD7A136EAB3000F12B68 /* cvfFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfFontManager.h; sourceTree = "<group>"; };
+		D882CD7B136EAB3000F12B68 /* cvfGlyph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfGlyph.cpp; sourceTree = "<group>"; };
+		D882CD7C136EAB3000F12B68 /* cvfGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfGlyph.h; sourceTree = "<group>"; };
+		D882CD7D136EAB3000F12B68 /* cvfMatrixState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfMatrixState.cpp; sourceTree = "<group>"; };
+		D882CD7E136EAB3000F12B68 /* cvfMatrixState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfMatrixState.h; sourceTree = "<group>"; };
+		D882CD7F136EAB3000F12B68 /* cvfShaderSourceRepositoryFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfShaderSourceRepositoryFile.cpp; sourceTree = "<group>"; };
+		D882CD80136EAB3000F12B68 /* cvfShaderSourceRepositoryFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfShaderSourceRepositoryFile.h; sourceTree = "<group>"; };
+		D882CD81136EAB3000F12B68 /* cvfTextDrawer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfTextDrawer.cpp; sourceTree = "<group>"; };
+		D882CD82136EAB3000F12B68 /* cvfTextDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfTextDrawer.h; sourceTree = "<group>"; };
+		D882CF811371309E00F12B68 /* cvfShaderProgramGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfShaderProgramGenerator.cpp; sourceTree = "<group>"; };
+		D882CF821371309E00F12B68 /* cvfShaderProgramGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfShaderProgramGenerator.h; sourceTree = "<group>"; };
+		D882CF831371309E00F12B68 /* cvfShaderSourceProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfShaderSourceProvider.cpp; sourceTree = "<group>"; };
+		D882CF841371309E00F12B68 /* cvfShaderSourceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfShaderSourceProvider.h; sourceTree = "<group>"; };
+		D8883AD9175934A400D6C6F5 /* cvfCameraAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfCameraAnimation.cpp; sourceTree = "<group>"; };
+		D8883ADA175934A400D6C6F5 /* cvfCameraAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfCameraAnimation.h; sourceTree = "<group>"; };
+		D8883ADB175934A400D6C6F5 /* cvfOverlayImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOverlayImage.cpp; sourceTree = "<group>"; };
+		D8883ADC175934A400D6C6F5 /* cvfOverlayImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOverlayImage.h; sourceTree = "<group>"; };
+		D8883ADD175934A400D6C6F5 /* cvfOverlayNavigationCube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOverlayNavigationCube.cpp; sourceTree = "<group>"; };
+		D8883ADE175934A400D6C6F5 /* cvfOverlayNavigationCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOverlayNavigationCube.h; sourceTree = "<group>"; };
+		D8AB0DB5122BC26F00FD08EC /* cvfCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfCamera.cpp; sourceTree = "<group>"; };
+		D8AB0DB6122BC26F00FD08EC /* cvfCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfCamera.h; sourceTree = "<group>"; };
+		D8AB0DB7122BC26F00FD08EC /* cvfDrawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfDrawable.cpp; sourceTree = "<group>"; };
+		D8AB0DB8122BC26F00FD08EC /* cvfDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfDrawable.h; sourceTree = "<group>"; };
+		D8AB0DB9122BC26F00FD08EC /* cvfDrawableGeo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfDrawableGeo.cpp; sourceTree = "<group>"; };
+		D8AB0DBA122BC26F00FD08EC /* cvfDrawableGeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfDrawableGeo.h; sourceTree = "<group>"; };
+		D8AB0DBB122BC26F00FD08EC /* cvfGeometryBuilderDrawableGeo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfGeometryBuilderDrawableGeo.cpp; sourceTree = "<group>"; };
+		D8AB0DBC122BC26F00FD08EC /* cvfGeometryBuilderDrawableGeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfGeometryBuilderDrawableGeo.h; sourceTree = "<group>"; };
+		D8AB0DBD122BC26F00FD08EC /* cvfLibRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLibRender.h; sourceTree = "<group>"; };
+		D8AB0DBE122BC26F00FD08EC /* cvfOpenGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOpenGL.cpp; sourceTree = "<group>"; };
+		D8AB0DBF122BC26F00FD08EC /* cvfOpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOpenGL.h; sourceTree = "<group>"; };
+		D8AB0DC2122BC26F00FD08EC /* cvfOpenGLResourceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOpenGLResourceManager.cpp; sourceTree = "<group>"; };
+		D8AB0DC3122BC26F00FD08EC /* cvfOpenGLResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOpenGLResourceManager.h; sourceTree = "<group>"; };
+		D8AB0DC4122BC26F00FD08EC /* cvfOpenGLTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOpenGLTypes.h; sourceTree = "<group>"; };
+		D8AB0DC5122BC26F00FD08EC /* cvfOverlayAxisCross.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOverlayAxisCross.cpp; sourceTree = "<group>"; };
+		D8AB0DC6122BC26F00FD08EC /* cvfOverlayAxisCross.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOverlayAxisCross.h; sourceTree = "<group>"; };
+		D8AB0DC7122BC26F00FD08EC /* cvfPrimitiveSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPrimitiveSet.cpp; sourceTree = "<group>"; };
+		D8AB0DC8122BC26F00FD08EC /* cvfPrimitiveSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPrimitiveSet.h; sourceTree = "<group>"; };
+		D8AB0DC9122BC26F00FD08EC /* cvfPrimitiveSetIndexedUInt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPrimitiveSetIndexedUInt.cpp; sourceTree = "<group>"; };
+		D8AB0DCA122BC26F00FD08EC /* cvfPrimitiveSetIndexedUInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPrimitiveSetIndexedUInt.h; sourceTree = "<group>"; };
+		D8AB0DCB122BC26F00FD08EC /* cvfPrimitiveSetIndexedUShort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPrimitiveSetIndexedUShort.cpp; sourceTree = "<group>"; };
+		D8AB0DCC122BC26F00FD08EC /* cvfPrimitiveSetIndexedUShort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPrimitiveSetIndexedUShort.h; sourceTree = "<group>"; };
+		D8AB0DCD122BC26F00FD08EC /* cvfRenderState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderState.cpp; sourceTree = "<group>"; };
+		D8AB0DCE122BC26F00FD08EC /* cvfRenderState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderState.h; sourceTree = "<group>"; };
+		D8AB0DCF122BC26F00FD08EC /* cvfRenderStateSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStateSet.cpp; sourceTree = "<group>"; };
+		D8AB0DD0122BC26F00FD08EC /* cvfRenderStateSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStateSet.h; sourceTree = "<group>"; };
+		D8AB0DD1122BC26F00FD08EC /* cvfShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfShader.cpp; sourceTree = "<group>"; };
+		D8AB0DD2122BC26F00FD08EC /* cvfShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfShader.h; sourceTree = "<group>"; };
+		D8AB0DD3122BC26F00FD08EC /* cvfShaderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfShaderProgram.cpp; sourceTree = "<group>"; };
+		D8AB0DD4122BC26F00FD08EC /* cvfShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfShaderProgram.h; sourceTree = "<group>"; };
+		D8AB0DD5122BC26F00FD08EC /* cvfViewport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfViewport.cpp; sourceTree = "<group>"; };
+		D8AB0DD6122BC26F00FD08EC /* cvfViewport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfViewport.h; sourceTree = "<group>"; };
+		D8ACB3FE1410EE5400E3B9A7 /* cvfPrimitiveSetIndexedUShortScoped.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPrimitiveSetIndexedUShortScoped.cpp; sourceTree = "<group>"; };
+		D8ACB3FF1410EE5400E3B9A7 /* cvfPrimitiveSetIndexedUShortScoped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPrimitiveSetIndexedUShortScoped.h; sourceTree = "<group>"; };
+		D8AEF54C12665AEB0008451F /* cvfShaderSourceRepository.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfShaderSourceRepository.cpp; sourceTree = "<group>"; };
+		D8AEF54D12665AEB0008451F /* cvfShaderSourceRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfShaderSourceRepository.h; sourceTree = "<group>"; };
+		D8BC7F051591C9C70020F1A8 /* cvfRenderStateStencil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStateStencil.cpp; sourceTree = "<group>"; };
+		D8BC7F061591C9C70020F1A8 /* cvfRenderStateStencil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStateStencil.h; sourceTree = "<group>"; };
+		D8BC9428153B008E00460BFE /* cvfOverlayItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOverlayItem.cpp; sourceTree = "<group>"; };
+		D8BC9429153B008E00460BFE /* cvfOverlayTextBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOverlayTextBox.cpp; sourceTree = "<group>"; };
+		D8BC942A153B008E00460BFE /* cvfOverlayTextBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOverlayTextBox.h; sourceTree = "<group>"; };
+		D8BC942B153B008E00460BFE /* cvfRenderStateBlending.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStateBlending.cpp; sourceTree = "<group>"; };
+		D8BC942C153B008E00460BFE /* cvfRenderStateBlending.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStateBlending.h; sourceTree = "<group>"; };
+		D8BC942D153B008E00460BFE /* cvfRenderStateColorMask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStateColorMask.cpp; sourceTree = "<group>"; };
+		D8BC942E153B008E00460BFE /* cvfRenderStateColorMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStateColorMask.h; sourceTree = "<group>"; };
+		D8BC942F153B008E00460BFE /* cvfRenderStateCullFace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStateCullFace.cpp; sourceTree = "<group>"; };
+		D8BC9430153B008E00460BFE /* cvfRenderStateCullFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStateCullFace.h; sourceTree = "<group>"; };
+		D8BC9431153B008E00460BFE /* cvfRenderStateDepth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStateDepth.cpp; sourceTree = "<group>"; };
+		D8BC9432153B008E00460BFE /* cvfRenderStateDepth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStateDepth.h; sourceTree = "<group>"; };
+		D8BC9433153B008E00460BFE /* cvfRenderStateFrontFace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStateFrontFace.cpp; sourceTree = "<group>"; };
+		D8BC9434153B008E00460BFE /* cvfRenderStateFrontFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStateFrontFace.h; sourceTree = "<group>"; };
+		D8BC9435153B008E00460BFE /* cvfRenderStateLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStateLine.cpp; sourceTree = "<group>"; };
+		D8BC9436153B008E00460BFE /* cvfRenderStateLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStateLine.h; sourceTree = "<group>"; };
+		D8BC9437153B008E00460BFE /* cvfRenderStatePoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStatePoint.cpp; sourceTree = "<group>"; };
+		D8BC9438153B008E00460BFE /* cvfRenderStatePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStatePoint.h; sourceTree = "<group>"; };
+		D8BC9439153B008E00460BFE /* cvfRenderStatePolygonMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStatePolygonMode.cpp; sourceTree = "<group>"; };
+		D8BC943A153B008E00460BFE /* cvfRenderStatePolygonMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStatePolygonMode.h; sourceTree = "<group>"; };
+		D8BC943B153B008E00460BFE /* cvfRenderStatePolygonOffset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStatePolygonOffset.cpp; sourceTree = "<group>"; };
+		D8BC943C153B008E00460BFE /* cvfRenderStatePolygonOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStatePolygonOffset.h; sourceTree = "<group>"; };
+		D8BC943D153B008E00460BFE /* cvfRenderStateTextureBindings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderStateTextureBindings.cpp; sourceTree = "<group>"; };
+		D8BC943E153B008E00460BFE /* cvfRenderStateTextureBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderStateTextureBindings.h; sourceTree = "<group>"; };
+		D8BC943F153B008E00460BFE /* cvfVertexBundle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfVertexBundle.cpp; sourceTree = "<group>"; };
+		D8BC9440153B008E00460BFE /* cvfVertexBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfVertexBundle.h; sourceTree = "<group>"; };
+		D8C3F6B5138E65AE000298D5 /* cvfShaderSourceStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfShaderSourceStrings.h; sourceTree = "<group>"; };
+		D8CA1F1814730732003EB29D /* cvfHitDetail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfHitDetail.cpp; sourceTree = "<group>"; };
+		D8CA1F1914730732003EB29D /* cvfHitDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfHitDetail.h; sourceTree = "<group>"; };
+		D8CA1F1A14730732003EB29D /* cvfOglRc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOglRc.cpp; sourceTree = "<group>"; };
+		D8CA1F1B14730732003EB29D /* cvfOglRc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOglRc.h; sourceTree = "<group>"; };
+		D8CA1F1C14730732003EB29D /* cvfOpenGLCapabilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOpenGLCapabilities.cpp; sourceTree = "<group>"; };
+		D8CA1F1D14730732003EB29D /* cvfOpenGLCapabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOpenGLCapabilities.h; sourceTree = "<group>"; };
+		D8CA1F1E14730732003EB29D /* cvfOpenGLContextGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfOpenGLContextGroup.cpp; sourceTree = "<group>"; };
+		D8CA1F1F14730732003EB29D /* cvfOpenGLContextGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOpenGLContextGroup.h; sourceTree = "<group>"; };
+		D8CA1F2014730732003EB29D /* cvfOverlayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfOverlayItem.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libLibRender.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* LibRender */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = LibRender;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8883AD9175934A400D6C6F5 /* cvfCameraAnimation.cpp */,
+				D8883ADA175934A400D6C6F5 /* cvfCameraAnimation.h */,
+				D8883ADB175934A400D6C6F5 /* cvfOverlayImage.cpp */,
+				D8883ADC175934A400D6C6F5 /* cvfOverlayImage.h */,
+				D8883ADD175934A400D6C6F5 /* cvfOverlayNavigationCube.cpp */,
+				D8883ADE175934A400D6C6F5 /* cvfOverlayNavigationCube.h */,
+				D8BC7F051591C9C70020F1A8 /* cvfRenderStateStencil.cpp */,
+				D8BC7F061591C9C70020F1A8 /* cvfRenderStateStencil.h */,
+				D8BC9428153B008E00460BFE /* cvfOverlayItem.cpp */,
+				D8BC9429153B008E00460BFE /* cvfOverlayTextBox.cpp */,
+				D8BC942A153B008E00460BFE /* cvfOverlayTextBox.h */,
+				D8BC942B153B008E00460BFE /* cvfRenderStateBlending.cpp */,
+				D8BC942C153B008E00460BFE /* cvfRenderStateBlending.h */,
+				D8BC942D153B008E00460BFE /* cvfRenderStateColorMask.cpp */,
+				D8BC942E153B008E00460BFE /* cvfRenderStateColorMask.h */,
+				D8BC942F153B008E00460BFE /* cvfRenderStateCullFace.cpp */,
+				D8BC9430153B008E00460BFE /* cvfRenderStateCullFace.h */,
+				D8BC9431153B008E00460BFE /* cvfRenderStateDepth.cpp */,
+				D8BC9432153B008E00460BFE /* cvfRenderStateDepth.h */,
+				D8BC9433153B008E00460BFE /* cvfRenderStateFrontFace.cpp */,
+				D8BC9434153B008E00460BFE /* cvfRenderStateFrontFace.h */,
+				D8BC9435153B008E00460BFE /* cvfRenderStateLine.cpp */,
+				D8BC9436153B008E00460BFE /* cvfRenderStateLine.h */,
+				D8BC9437153B008E00460BFE /* cvfRenderStatePoint.cpp */,
+				D8BC9438153B008E00460BFE /* cvfRenderStatePoint.h */,
+				D8BC9439153B008E00460BFE /* cvfRenderStatePolygonMode.cpp */,
+				D8BC943A153B008E00460BFE /* cvfRenderStatePolygonMode.h */,
+				D8BC943B153B008E00460BFE /* cvfRenderStatePolygonOffset.cpp */,
+				D8BC943C153B008E00460BFE /* cvfRenderStatePolygonOffset.h */,
+				D8BC943D153B008E00460BFE /* cvfRenderStateTextureBindings.cpp */,
+				D8BC943E153B008E00460BFE /* cvfRenderStateTextureBindings.h */,
+				D8BC943F153B008E00460BFE /* cvfVertexBundle.cpp */,
+				D8BC9440153B008E00460BFE /* cvfVertexBundle.h */,
+				D8CA1F1814730732003EB29D /* cvfHitDetail.cpp */,
+				D8CA1F1914730732003EB29D /* cvfHitDetail.h */,
+				D8CA1F1A14730732003EB29D /* cvfOglRc.cpp */,
+				D8CA1F1B14730732003EB29D /* cvfOglRc.h */,
+				D8CA1F1C14730732003EB29D /* cvfOpenGLCapabilities.cpp */,
+				D8CA1F1D14730732003EB29D /* cvfOpenGLCapabilities.h */,
+				D8CA1F1E14730732003EB29D /* cvfOpenGLContextGroup.cpp */,
+				D8CA1F1F14730732003EB29D /* cvfOpenGLContextGroup.h */,
+				D8CA1F2014730732003EB29D /* cvfOverlayItem.h */,
+				731C3A6A14287417005D52C7 /* cvfPrimitiveSetDirect.cpp */,
+				731C3A6B14287417005D52C7 /* cvfPrimitiveSetDirect.h */,
+				D83DD427141F8E930086695B /* cvfVertexAttribute.cpp */,
+				D83DD428141F8E930086695B /* cvfVertexAttribute.h */,
+				D8ACB3FE1410EE5400E3B9A7 /* cvfPrimitiveSetIndexedUShortScoped.cpp */,
+				D8ACB3FF1410EE5400E3B9A7 /* cvfPrimitiveSetIndexedUShortScoped.h */,
+				D8C3F6B5138E65AE000298D5 /* cvfShaderSourceStrings.h */,
+				D853A7491383F4EE00833859 /* cvfPrimitiveSetIndexedUIntScoped.cpp */,
+				D853A74A1383F4EE00833859 /* cvfPrimitiveSetIndexedUIntScoped.h */,
+				D882CF811371309E00F12B68 /* cvfShaderProgramGenerator.cpp */,
+				D882CF821371309E00F12B68 /* cvfShaderProgramGenerator.h */,
+				D882CF831371309E00F12B68 /* cvfShaderSourceProvider.cpp */,
+				D882CF841371309E00F12B68 /* cvfShaderSourceProvider.h */,
+				D882CD73136EAB3000F12B68 /* cvfDrawableText.cpp */,
+				D882CD74136EAB3000F12B68 /* cvfDrawableText.h */,
+				D882CD75136EAB3000F12B68 /* cvfFixedAtlasFont.cpp */,
+				D882CD76136EAB3000F12B68 /* cvfFixedAtlasFont.h */,
+				D882CD77136EAB3000F12B68 /* cvfFont.cpp */,
+				D882CD78136EAB3000F12B68 /* cvfFont.h */,
+				D882CD79136EAB3000F12B68 /* cvfFontManager.cpp */,
+				D882CD7A136EAB3000F12B68 /* cvfFontManager.h */,
+				D882CD7B136EAB3000F12B68 /* cvfGlyph.cpp */,
+				D882CD7C136EAB3000F12B68 /* cvfGlyph.h */,
+				D882CD7D136EAB3000F12B68 /* cvfMatrixState.cpp */,
+				D882CD7E136EAB3000F12B68 /* cvfMatrixState.h */,
+				D882CD7F136EAB3000F12B68 /* cvfShaderSourceRepositoryFile.cpp */,
+				D882CD80136EAB3000F12B68 /* cvfShaderSourceRepositoryFile.h */,
+				D882CD81136EAB3000F12B68 /* cvfTextDrawer.cpp */,
+				D882CD82136EAB3000F12B68 /* cvfTextDrawer.h */,
+				D882CC861338C4A000F12B68 /* cvfFrameBufferObject.cpp */,
+				D882CC871338C4A000F12B68 /* cvfFrameBufferObject.h */,
+				D882CC881338C4A000F12B68 /* cvfRenderBufferObject.cpp */,
+				D882CC891338C4A000F12B68 /* cvfRenderBufferObject.h */,
+				D882CC8C1338C4A000F12B68 /* cvfRenderStateTracker.cpp */,
+				D882CC8D1338C4A000F12B68 /* cvfRenderStateTracker.h */,
+				D8602276130EA3F70029B639 /* cvfScalarMapperUniformLevels.cpp */,
+				D8602277130EA3F70029B639 /* cvfScalarMapperUniformLevels.h */,
+				D8458136130C02A800785013 /* cvfBufferObjectManaged.cpp */,
+				D8458137130C02A800785013 /* cvfBufferObjectManaged.h */,
+				D8457C4813093A4200785013 /* cvfDrawableVectors.cpp */,
+				D8457C4913093A4200785013 /* cvfDrawableVectors.h */,
+				D8457C4A13093A4200785013 /* cvfOpenGLContext.cpp */,
+				D8457C4B13093A4200785013 /* cvfOpenGLContext.h */,
+				D8457C4C13093A4200785013 /* cvfOverlayColorLegend.cpp */,
+				D8457C4D13093A4200785013 /* cvfOverlayColorLegend.h */,
+				D8457C4E13093A4200785013 /* cvfSampler.cpp */,
+				D8457C4F13093A4200785013 /* cvfSampler.h */,
+				D8457C5013093A4200785013 /* cvfScalarMapper.cpp */,
+				D8457C5113093A4200785013 /* cvfScalarMapper.h */,
+				D8457C5213093A4200785013 /* cvfTexture.cpp */,
+				D8457C5313093A4200785013 /* cvfTexture.h */,
+				D8457C5413093A4200785013 /* cvfTextureImage.cpp */,
+				D8457C5513093A4200785013 /* cvfTextureImage.h */,
+				D8AEF54C12665AEB0008451F /* cvfShaderSourceRepository.cpp */,
+				D8AEF54D12665AEB0008451F /* cvfShaderSourceRepository.h */,
+				D87BFE801240AEB600AE47A1 /* cvfUniform.cpp */,
+				D87BFE811240AEB600AE47A1 /* cvfUniform.h */,
+				D87BFE821240AEB600AE47A1 /* cvfUniformSet.cpp */,
+				D87BFE831240AEB600AE47A1 /* cvfUniformSet.h */,
+				D8AB0DB5122BC26F00FD08EC /* cvfCamera.cpp */,
+				D8AB0DB6122BC26F00FD08EC /* cvfCamera.h */,
+				D8AB0DB7122BC26F00FD08EC /* cvfDrawable.cpp */,
+				D8AB0DB8122BC26F00FD08EC /* cvfDrawable.h */,
+				D8AB0DB9122BC26F00FD08EC /* cvfDrawableGeo.cpp */,
+				D8AB0DBA122BC26F00FD08EC /* cvfDrawableGeo.h */,
+				D8AB0DBB122BC26F00FD08EC /* cvfGeometryBuilderDrawableGeo.cpp */,
+				D8AB0DBC122BC26F00FD08EC /* cvfGeometryBuilderDrawableGeo.h */,
+				D8AB0DBD122BC26F00FD08EC /* cvfLibRender.h */,
+				D8AB0DBE122BC26F00FD08EC /* cvfOpenGL.cpp */,
+				D8AB0DBF122BC26F00FD08EC /* cvfOpenGL.h */,
+				D8AB0DC2122BC26F00FD08EC /* cvfOpenGLResourceManager.cpp */,
+				D8AB0DC3122BC26F00FD08EC /* cvfOpenGLResourceManager.h */,
+				D8AB0DC4122BC26F00FD08EC /* cvfOpenGLTypes.h */,
+				D8AB0DC5122BC26F00FD08EC /* cvfOverlayAxisCross.cpp */,
+				D8AB0DC6122BC26F00FD08EC /* cvfOverlayAxisCross.h */,
+				D8AB0DC7122BC26F00FD08EC /* cvfPrimitiveSet.cpp */,
+				D8AB0DC8122BC26F00FD08EC /* cvfPrimitiveSet.h */,
+				D8AB0DC9122BC26F00FD08EC /* cvfPrimitiveSetIndexedUInt.cpp */,
+				D8AB0DCA122BC26F00FD08EC /* cvfPrimitiveSetIndexedUInt.h */,
+				D8AB0DCB122BC26F00FD08EC /* cvfPrimitiveSetIndexedUShort.cpp */,
+				D8AB0DCC122BC26F00FD08EC /* cvfPrimitiveSetIndexedUShort.h */,
+				D8AB0DCD122BC26F00FD08EC /* cvfRenderState.cpp */,
+				D8AB0DCE122BC26F00FD08EC /* cvfRenderState.h */,
+				D8AB0DCF122BC26F00FD08EC /* cvfRenderStateSet.cpp */,
+				D8AB0DD0122BC26F00FD08EC /* cvfRenderStateSet.h */,
+				D8AB0DD1122BC26F00FD08EC /* cvfShader.cpp */,
+				D8AB0DD2122BC26F00FD08EC /* cvfShader.h */,
+				D8AB0DD3122BC26F00FD08EC /* cvfShaderProgram.cpp */,
+				D8AB0DD4122BC26F00FD08EC /* cvfShaderProgram.h */,
+				D8AB0DD5122BC26F00FD08EC /* cvfViewport.cpp */,
+				D8AB0DD6122BC26F00FD08EC /* cvfViewport.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* LibRender_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* LibRender_Prefix.pch in Headers */,
+				D8AB0DDE122BC26F00FD08EC /* cvfCamera.h in Headers */,
+				D8AB0DE0122BC26F00FD08EC /* cvfDrawable.h in Headers */,
+				D8AB0DE2122BC26F00FD08EC /* cvfDrawableGeo.h in Headers */,
+				D8AB0DE4122BC26F00FD08EC /* cvfGeometryBuilderDrawableGeo.h in Headers */,
+				D8AB0DE5122BC26F00FD08EC /* cvfLibRender.h in Headers */,
+				D8AB0DE7122BC26F00FD08EC /* cvfOpenGL.h in Headers */,
+				D8AB0DEB122BC26F00FD08EC /* cvfOpenGLResourceManager.h in Headers */,
+				D8AB0DEC122BC26F00FD08EC /* cvfOpenGLTypes.h in Headers */,
+				D8AB0DEE122BC26F00FD08EC /* cvfOverlayAxisCross.h in Headers */,
+				D8AB0DF0122BC26F00FD08EC /* cvfPrimitiveSet.h in Headers */,
+				D8AB0DF2122BC26F00FD08EC /* cvfPrimitiveSetIndexedUInt.h in Headers */,
+				D8AB0DF4122BC26F00FD08EC /* cvfPrimitiveSetIndexedUShort.h in Headers */,
+				D8AB0DF6122BC26F00FD08EC /* cvfRenderState.h in Headers */,
+				D8AB0DF8122BC26F00FD08EC /* cvfRenderStateSet.h in Headers */,
+				D8AB0DFA122BC26F00FD08EC /* cvfShader.h in Headers */,
+				D8AB0DFC122BC26F00FD08EC /* cvfShaderProgram.h in Headers */,
+				D8AB0DFE122BC26F00FD08EC /* cvfViewport.h in Headers */,
+				D87BFE851240AEB600AE47A1 /* cvfUniform.h in Headers */,
+				D87BFE871240AEB600AE47A1 /* cvfUniformSet.h in Headers */,
+				D8AEF54F12665AEB0008451F /* cvfShaderSourceRepository.h in Headers */,
+				D8457C5913093A4200785013 /* cvfDrawableVectors.h in Headers */,
+				D8457C5B13093A4200785013 /* cvfOpenGLContext.h in Headers */,
+				D8457C5D13093A4200785013 /* cvfOverlayColorLegend.h in Headers */,
+				D8457C5F13093A4200785013 /* cvfSampler.h in Headers */,
+				D8457C6113093A4200785013 /* cvfScalarMapper.h in Headers */,
+				D8457C6313093A4200785013 /* cvfTexture.h in Headers */,
+				D8457C6513093A4200785013 /* cvfTextureImage.h in Headers */,
+				D8458139130C02A800785013 /* cvfBufferObjectManaged.h in Headers */,
+				D8602279130EA3F70029B639 /* cvfScalarMapperUniformLevels.h in Headers */,
+				D882CC911338C4A000F12B68 /* cvfFrameBufferObject.h in Headers */,
+				D882CC931338C4A000F12B68 /* cvfRenderBufferObject.h in Headers */,
+				D882CC971338C4A000F12B68 /* cvfRenderStateTracker.h in Headers */,
+				D882CD84136EAB3000F12B68 /* cvfDrawableText.h in Headers */,
+				D882CD86136EAB3000F12B68 /* cvfFixedAtlasFont.h in Headers */,
+				D882CD88136EAB3000F12B68 /* cvfFont.h in Headers */,
+				D882CD8A136EAB3000F12B68 /* cvfFontManager.h in Headers */,
+				D882CD8C136EAB3000F12B68 /* cvfGlyph.h in Headers */,
+				D882CD8E136EAB3000F12B68 /* cvfMatrixState.h in Headers */,
+				D882CD90136EAB3000F12B68 /* cvfShaderSourceRepositoryFile.h in Headers */,
+				D882CD92136EAB3000F12B68 /* cvfTextDrawer.h in Headers */,
+				D882CF861371309E00F12B68 /* cvfShaderProgramGenerator.h in Headers */,
+				D882CF881371309E00F12B68 /* cvfShaderSourceProvider.h in Headers */,
+				D853A74C1383F4EE00833859 /* cvfPrimitiveSetIndexedUIntScoped.h in Headers */,
+				D8C3F6B6138E65AE000298D5 /* cvfShaderSourceStrings.h in Headers */,
+				D8ACB4051410EE5400E3B9A7 /* cvfPrimitiveSetIndexedUShortScoped.h in Headers */,
+				D83DD42C141F8E930086695B /* cvfVertexAttribute.h in Headers */,
+				731C3A6D14287417005D52C7 /* cvfPrimitiveSetDirect.h in Headers */,
+				D8CA1F2214730732003EB29D /* cvfHitDetail.h in Headers */,
+				D8CA1F2414730732003EB29D /* cvfOglRc.h in Headers */,
+				D8CA1F2614730732003EB29D /* cvfOpenGLCapabilities.h in Headers */,
+				D8CA1F2814730732003EB29D /* cvfOpenGLContextGroup.h in Headers */,
+				D8CA1F2914730732003EB29D /* cvfOverlayItem.h in Headers */,
+				D8BC9443153B008E00460BFE /* cvfOverlayTextBox.h in Headers */,
+				D8BC9445153B008E00460BFE /* cvfRenderStateBlending.h in Headers */,
+				D8BC9447153B008E00460BFE /* cvfRenderStateColorMask.h in Headers */,
+				D8BC9449153B008E00460BFE /* cvfRenderStateCullFace.h in Headers */,
+				D8BC944B153B008E00460BFE /* cvfRenderStateDepth.h in Headers */,
+				D8BC944D153B008E00460BFE /* cvfRenderStateFrontFace.h in Headers */,
+				D8BC944F153B008E00460BFE /* cvfRenderStateLine.h in Headers */,
+				D8BC9451153B008E00460BFE /* cvfRenderStatePoint.h in Headers */,
+				D8BC9453153B008E00460BFE /* cvfRenderStatePolygonMode.h in Headers */,
+				D8BC9455153B008E00460BFE /* cvfRenderStatePolygonOffset.h in Headers */,
+				D8BC9457153B008E00460BFE /* cvfRenderStateTextureBindings.h in Headers */,
+				D8BC9459153B008E00460BFE /* cvfVertexBundle.h in Headers */,
+				D8BC7F081591C9C70020F1A8 /* cvfRenderStateStencil.h in Headers */,
+				D8883AE0175934A400D6C6F5 /* cvfCameraAnimation.h in Headers */,
+				D8883AE2175934A400D6C6F5 /* cvfOverlayImage.h in Headers */,
+				D8883AE4175934A400D6C6F5 /* cvfOverlayNavigationCube.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* LibRender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LibRender" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibRender;
+			productName = LibRender;
+			productReference = D2AAC07E0554694100DB518D /* libLibRender.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LibRender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* LibRender */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* LibRender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AB0DDD122BC26F00FD08EC /* cvfCamera.cpp in Sources */,
+				D8AB0DDF122BC26F00FD08EC /* cvfDrawable.cpp in Sources */,
+				D8AB0DE1122BC26F00FD08EC /* cvfDrawableGeo.cpp in Sources */,
+				D8AB0DE3122BC26F00FD08EC /* cvfGeometryBuilderDrawableGeo.cpp in Sources */,
+				D8AB0DE6122BC26F00FD08EC /* cvfOpenGL.cpp in Sources */,
+				D8AB0DEA122BC26F00FD08EC /* cvfOpenGLResourceManager.cpp in Sources */,
+				D8AB0DED122BC26F00FD08EC /* cvfOverlayAxisCross.cpp in Sources */,
+				D8AB0DEF122BC26F00FD08EC /* cvfPrimitiveSet.cpp in Sources */,
+				D8AB0DF1122BC26F00FD08EC /* cvfPrimitiveSetIndexedUInt.cpp in Sources */,
+				D8AB0DF3122BC26F00FD08EC /* cvfPrimitiveSetIndexedUShort.cpp in Sources */,
+				D8AB0DF5122BC26F00FD08EC /* cvfRenderState.cpp in Sources */,
+				D8AB0DF7122BC26F00FD08EC /* cvfRenderStateSet.cpp in Sources */,
+				D8AB0DF9122BC26F00FD08EC /* cvfShader.cpp in Sources */,
+				D8AB0DFB122BC26F00FD08EC /* cvfShaderProgram.cpp in Sources */,
+				D8AB0DFD122BC26F00FD08EC /* cvfViewport.cpp in Sources */,
+				D87BFE841240AEB600AE47A1 /* cvfUniform.cpp in Sources */,
+				D87BFE861240AEB600AE47A1 /* cvfUniformSet.cpp in Sources */,
+				D8AEF54E12665AEB0008451F /* cvfShaderSourceRepository.cpp in Sources */,
+				D8457C5813093A4200785013 /* cvfDrawableVectors.cpp in Sources */,
+				D8457C5A13093A4200785013 /* cvfOpenGLContext.cpp in Sources */,
+				D8457C5C13093A4200785013 /* cvfOverlayColorLegend.cpp in Sources */,
+				D8457C5E13093A4200785013 /* cvfSampler.cpp in Sources */,
+				D8457C6013093A4200785013 /* cvfScalarMapper.cpp in Sources */,
+				D8457C6213093A4200785013 /* cvfTexture.cpp in Sources */,
+				D8457C6413093A4200785013 /* cvfTextureImage.cpp in Sources */,
+				D8458138130C02A800785013 /* cvfBufferObjectManaged.cpp in Sources */,
+				D8602278130EA3F70029B639 /* cvfScalarMapperUniformLevels.cpp in Sources */,
+				D882CC901338C4A000F12B68 /* cvfFrameBufferObject.cpp in Sources */,
+				D882CC921338C4A000F12B68 /* cvfRenderBufferObject.cpp in Sources */,
+				D882CC961338C4A000F12B68 /* cvfRenderStateTracker.cpp in Sources */,
+				D882CD83136EAB3000F12B68 /* cvfDrawableText.cpp in Sources */,
+				D882CD85136EAB3000F12B68 /* cvfFixedAtlasFont.cpp in Sources */,
+				D882CD87136EAB3000F12B68 /* cvfFont.cpp in Sources */,
+				D882CD89136EAB3000F12B68 /* cvfFontManager.cpp in Sources */,
+				D882CD8B136EAB3000F12B68 /* cvfGlyph.cpp in Sources */,
+				D882CD8D136EAB3000F12B68 /* cvfMatrixState.cpp in Sources */,
+				D882CD8F136EAB3000F12B68 /* cvfShaderSourceRepositoryFile.cpp in Sources */,
+				D882CD91136EAB3000F12B68 /* cvfTextDrawer.cpp in Sources */,
+				D882CF851371309E00F12B68 /* cvfShaderProgramGenerator.cpp in Sources */,
+				D882CF871371309E00F12B68 /* cvfShaderSourceProvider.cpp in Sources */,
+				D853A74B1383F4EE00833859 /* cvfPrimitiveSetIndexedUIntScoped.cpp in Sources */,
+				D8ACB4041410EE5400E3B9A7 /* cvfPrimitiveSetIndexedUShortScoped.cpp in Sources */,
+				D83DD42B141F8E930086695B /* cvfVertexAttribute.cpp in Sources */,
+				731C3A6C14287417005D52C7 /* cvfPrimitiveSetDirect.cpp in Sources */,
+				D8CA1F2114730732003EB29D /* cvfHitDetail.cpp in Sources */,
+				D8CA1F2314730732003EB29D /* cvfOglRc.cpp in Sources */,
+				D8CA1F2514730732003EB29D /* cvfOpenGLCapabilities.cpp in Sources */,
+				D8CA1F2714730732003EB29D /* cvfOpenGLContextGroup.cpp in Sources */,
+				D8BC9441153B008E00460BFE /* cvfOverlayItem.cpp in Sources */,
+				D8BC9442153B008E00460BFE /* cvfOverlayTextBox.cpp in Sources */,
+				D8BC9444153B008E00460BFE /* cvfRenderStateBlending.cpp in Sources */,
+				D8BC9446153B008E00460BFE /* cvfRenderStateColorMask.cpp in Sources */,
+				D8BC9448153B008E00460BFE /* cvfRenderStateCullFace.cpp in Sources */,
+				D8BC944A153B008E00460BFE /* cvfRenderStateDepth.cpp in Sources */,
+				D8BC944C153B008E00460BFE /* cvfRenderStateFrontFace.cpp in Sources */,
+				D8BC944E153B008E00460BFE /* cvfRenderStateLine.cpp in Sources */,
+				D8BC9450153B008E00460BFE /* cvfRenderStatePoint.cpp in Sources */,
+				D8BC9452153B008E00460BFE /* cvfRenderStatePolygonMode.cpp in Sources */,
+				D8BC9454153B008E00460BFE /* cvfRenderStatePolygonOffset.cpp in Sources */,
+				D8BC9456153B008E00460BFE /* cvfRenderStateTextureBindings.cpp in Sources */,
+				D8BC9458153B008E00460BFE /* cvfVertexBundle.cpp in Sources */,
+				D8BC7F071591C9C70020F1A8 /* cvfRenderStateStencil.cpp in Sources */,
+				D8883ADF175934A400D6C6F5 /* cvfCameraAnimation.cpp in Sources */,
+				D8883AE1175934A400D6C6F5 /* cvfOverlayImage.cpp in Sources */,
+				D8883AE3175934A400D6C6F5 /* cvfOverlayNavigationCube.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/LibRender.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibRender_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibRender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/LibRender.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibRender_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibRender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CVF_IOS,
+					CVF_OPENGL_ES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../LibCore,
+					../LibGeometry,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CVF_IOS,
+					CVF_OPENGL_ES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../LibCore,
+					../LibGeometry,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D8AEF41712663C3E0008451F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CVF_IOS,
+					CVF_OPENGL_ES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../LibCore,
+					../LibGeometry,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		D8AEF41812663C3E0008451F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/LibRender.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibRender_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibRender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LibRender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+				D8AEF41812663C3E0008451F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LibRender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+				D8AEF41712663C3E0008451F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

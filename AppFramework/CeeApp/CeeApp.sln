@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CeeApp", "CeeApp.vcxproj", "{F02ACD07-D5FE-80C6-67B9-365D4FF25259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		ProjectDataModel_UnitTests|Win32 = ProjectDataModel_UnitTests|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F02ACD07-D5FE-80C6-67B9-365D4FF25259}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F02ACD07-D5FE-80C6-67B9-365D4FF25259}.Debug|Win32.Build.0 = Debug|Win32
+		{F02ACD07-D5FE-80C6-67B9-365D4FF25259}.ProjectDataModel_UnitTests|Win32.ActiveCfg = ProjectDataModel_UnitTests|Win32
+		{F02ACD07-D5FE-80C6-67B9-365D4FF25259}.ProjectDataModel_UnitTests|Win32.Build.0 = ProjectDataModel_UnitTests|Win32
+		{F02ACD07-D5FE-80C6-67B9-365D4FF25259}.Release|Win32.ActiveCfg = Release|Win32
+		{F02ACD07-D5FE-80C6-67B9-365D4FF25259}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection

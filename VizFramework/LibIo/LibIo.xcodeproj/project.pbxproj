@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D82587EC1758AB7D00401BDA /* cvfPropertyXmlSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82587EA1758AB7D00401BDA /* cvfPropertyXmlSerializer.cpp */; };
+		D82587ED1758AB7D00401BDA /* cvfPropertyXmlSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587EB1758AB7D00401BDA /* cvfPropertyXmlSerializer.h */; };
+		D8B6CFB21396499900DB579F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B6CFB11396499900DB579F /* Foundation.framework */; };
+		D8B6CFC313964A7B00DB579F /* cvfFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8B6CFBB13964A7B00DB579F /* cvfFile.cpp */; };
+		D8B6CFC413964A7B00DB579F /* cvfFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B6CFBC13964A7B00DB579F /* cvfFile.h */; };
+		D8B6CFC513964A7B00DB579F /* cvfLibIo.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B6CFBD13964A7B00DB579F /* cvfLibIo.h */; };
+		D8B6CFC613964A7B00DB579F /* cvfMemoryFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8B6CFBE13964A7B00DB579F /* cvfMemoryFile.cpp */; };
+		D8B6CFC713964A7B00DB579F /* cvfMemoryFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B6CFBF13964A7B00DB579F /* cvfMemoryFile.h */; };
+		D8B6CFC813964A7B00DB579F /* cvfTinyXmlFused.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D8B6CFC013964A7B00DB579F /* cvfTinyXmlFused.hpp */; };
+		D8B6CFC913964A7B00DB579F /* cvfXml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8B6CFC113964A7B00DB579F /* cvfXml.cpp */; };
+		D8B6CFCA13964A7B00DB579F /* cvfXml.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B6CFC213964A7B00DB579F /* cvfXml.h */; };
+		D8B6CFE11396742200DB579F /* LibIo-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = D8B6CFE01396742200DB579F /* LibIo-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D82587EA1758AB7D00401BDA /* cvfPropertyXmlSerializer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPropertyXmlSerializer.cpp; sourceTree = "<group>"; };
+		D82587EB1758AB7D00401BDA /* cvfPropertyXmlSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPropertyXmlSerializer.h; sourceTree = "<group>"; };
+		D8B6CFAE1396499900DB579F /* libLibIo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibIo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B6CFB11396499900DB579F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8B6CFBB13964A7B00DB579F /* cvfFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfFile.cpp; sourceTree = "<group>"; };
+		D8B6CFBC13964A7B00DB579F /* cvfFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfFile.h; sourceTree = "<group>"; };
+		D8B6CFBD13964A7B00DB579F /* cvfLibIo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLibIo.h; sourceTree = "<group>"; };
+		D8B6CFBE13964A7B00DB579F /* cvfMemoryFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfMemoryFile.cpp; sourceTree = "<group>"; };
+		D8B6CFBF13964A7B00DB579F /* cvfMemoryFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfMemoryFile.h; sourceTree = "<group>"; };
+		D8B6CFC013964A7B00DB579F /* cvfTinyXmlFused.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cvfTinyXmlFused.hpp; sourceTree = "<group>"; };
+		D8B6CFC113964A7B00DB579F /* cvfXml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfXml.cpp; sourceTree = "<group>"; };
+		D8B6CFC213964A7B00DB579F /* cvfXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfXml.h; sourceTree = "<group>"; };
+		D8B6CFE01396742200DB579F /* LibIo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LibIo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8B6CFAB1396499900DB579F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B6CFB21396499900DB579F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8B6CFA31396499900DB579F = {
+			isa = PBXGroup;
+			children = (
+				D82587EA1758AB7D00401BDA /* cvfPropertyXmlSerializer.cpp */,
+				D82587EB1758AB7D00401BDA /* cvfPropertyXmlSerializer.h */,
+				D8B6CFBB13964A7B00DB579F /* cvfFile.cpp */,
+				D8B6CFBC13964A7B00DB579F /* cvfFile.h */,
+				D8B6CFBD13964A7B00DB579F /* cvfLibIo.h */,
+				D8B6CFBE13964A7B00DB579F /* cvfMemoryFile.cpp */,
+				D8B6CFBF13964A7B00DB579F /* cvfMemoryFile.h */,
+				D8B6CFC013964A7B00DB579F /* cvfTinyXmlFused.hpp */,
+				D8B6CFC113964A7B00DB579F /* cvfXml.cpp */,
+				D8B6CFC213964A7B00DB579F /* cvfXml.h */,
+				D8B6CFB31396499900DB579F /* LibIo */,
+				D8B6CFB01396499900DB579F /* Frameworks */,
+				D8B6CFAF1396499900DB579F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B6CFAF1396499900DB579F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8B6CFAE1396499900DB579F /* libLibIo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8B6CFB01396499900DB579F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8B6CFB11396499900DB579F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8B6CFB31396499900DB579F /* LibIo */ = {
+			isa = PBXGroup;
+			children = (
+				D8B6CFB41396499900DB579F /* Supporting Files */,
+			);
+			path = LibIo;
+			sourceTree = "<group>";
+		};
+		D8B6CFB41396499900DB579F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8B6CFE01396742200DB579F /* LibIo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D8B6CFAC1396499900DB579F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B6CFC413964A7B00DB579F /* cvfFile.h in Headers */,
+				D8B6CFC513964A7B00DB579F /* cvfLibIo.h in Headers */,
+				D8B6CFC713964A7B00DB579F /* cvfMemoryFile.h in Headers */,
+				D8B6CFC813964A7B00DB579F /* cvfTinyXmlFused.hpp in Headers */,
+				D8B6CFCA13964A7B00DB579F /* cvfXml.h in Headers */,
+				D8B6CFE11396742200DB579F /* LibIo-Prefix.pch in Headers */,
+				D82587ED1758AB7D00401BDA /* cvfPropertyXmlSerializer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D8B6CFAD1396499900DB579F /* LibIo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B6CFB81396499900DB579F /* Build configuration list for PBXNativeTarget "LibIo" */;
+			buildPhases = (
+				D8B6CFAA1396499900DB579F /* Sources */,
+				D8B6CFAB1396499900DB579F /* Frameworks */,
+				D8B6CFAC1396499900DB579F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibIo;
+			productName = LibIo;
+			productReference = D8B6CFAE1396499900DB579F /* libLibIo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8B6CFA51396499900DB579F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D8B6CFA81396499900DB579F /* Build configuration list for PBXProject "LibIo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8B6CFA31396499900DB579F;
+			productRefGroup = D8B6CFAF1396499900DB579F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B6CFAD1396499900DB579F /* LibIo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8B6CFAA1396499900DB579F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B6CFC313964A7B00DB579F /* cvfFile.cpp in Sources */,
+				D8B6CFC613964A7B00DB579F /* cvfMemoryFile.cpp in Sources */,
+				D8B6CFC913964A7B00DB579F /* cvfXml.cpp in Sources */,
+				D82587EC1758AB7D00401BDA /* cvfPropertyXmlSerializer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D8B6CFB61396499900DB579F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					CVF_IOS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = ../LibCore;
+			};
+			name = Debug;
+		};
+		D8B6CFB71396499900DB579F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PREPROCESSOR_DEFINITIONS = CVF_IOS;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = ../LibCore;
+			};
+			name = Release;
+		};
+		D8B6CFB91396499900DB579F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/LibIo.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibIo-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					DEBUG,
+					CVF_IOS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = ../LibCore;
+			};
+			name = Debug;
+		};
+		D8B6CFBA1396499900DB579F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/LibIo.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibIo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = CVF_IOS;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = ../LibCore;
+			};
+			name = Release;
+		};
+		D8B6CFDE13964BD600DB579F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PREPROCESSOR_DEFINITIONS = CVF_IOS;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = ../LibCore;
+			};
+			name = Distribution;
+		};
+		D8B6CFDF13964BD600DB579F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/LibIo.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibIo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = CVF_IOS;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = ../LibCore;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8B6CFA81396499900DB579F /* Build configuration list for PBXProject "LibIo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B6CFB61396499900DB579F /* Debug */,
+				D8B6CFB71396499900DB579F /* Release */,
+				D8B6CFDE13964BD600DB579F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B6CFB81396499900DB579F /* Build configuration list for PBXNativeTarget "LibIo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B6CFB91396499900DB579F /* Debug */,
+				D8B6CFBA1396499900DB579F /* Release */,
+				D8B6CFDF13964BD600DB579F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8B6CFA51396499900DB579F /* Project object */;
+}

@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D804A0E8122C54D300FE9802 /* cvfConstantFrameRate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0B4122C54D300FE9802 /* cvfConstantFrameRate.cpp */; };
+		D804A0E9122C54D300FE9802 /* cvfConstantFrameRate.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0B5122C54D300FE9802 /* cvfConstantFrameRate.h */; };
+		D804A0EA122C54D300FE9802 /* cvfCullSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0B6122C54D300FE9802 /* cvfCullSettings.cpp */; };
+		D804A0EB122C54D300FE9802 /* cvfCullSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0B7122C54D300FE9802 /* cvfCullSettings.h */; };
+		D804A0EC122C54D300FE9802 /* cvfEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0B8122C54D300FE9802 /* cvfEffect.cpp */; };
+		D804A0ED122C54D300FE9802 /* cvfEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0B9122C54D300FE9802 /* cvfEffect.h */; };
+		D804A0F1122C54D300FE9802 /* cvfLocators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0BD122C54D300FE9802 /* cvfLocators.cpp */; };
+		D804A0F2122C54D300FE9802 /* cvfLocators.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0BE122C54D300FE9802 /* cvfLocators.h */; };
+		D804A0F3122C54D300FE9802 /* cvfManipulatorTrackball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0BF122C54D300FE9802 /* cvfManipulatorTrackball.cpp */; };
+		D804A0F4122C54D300FE9802 /* cvfManipulatorTrackball.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0C0122C54D300FE9802 /* cvfManipulatorTrackball.h */; };
+		D804A0F5122C54D300FE9802 /* cvfModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0C1122C54D300FE9802 /* cvfModel.cpp */; };
+		D804A0F6122C54D300FE9802 /* cvfModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0C2122C54D300FE9802 /* cvfModel.h */; };
+		D804A0F7122C54D300FE9802 /* cvfModelBasicList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0C3122C54D300FE9802 /* cvfModelBasicList.cpp */; };
+		D804A0F8122C54D300FE9802 /* cvfModelBasicList.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0C4122C54D300FE9802 /* cvfModelBasicList.h */; };
+		D804A0F9122C54D300FE9802 /* cvfModelBasicTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0C5122C54D300FE9802 /* cvfModelBasicTree.cpp */; };
+		D804A0FA122C54D300FE9802 /* cvfModelBasicTree.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0C6122C54D300FE9802 /* cvfModelBasicTree.h */; };
+		D804A0FD122C54D300FE9802 /* cvfPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0C9122C54D300FE9802 /* cvfPart.cpp */; };
+		D804A0FE122C54D300FE9802 /* cvfPart.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0CA122C54D300FE9802 /* cvfPart.h */; };
+		D804A101122C54D300FE9802 /* cvfPartRenderHintCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0CD122C54D300FE9802 /* cvfPartRenderHintCollection.cpp */; };
+		D804A102122C54D300FE9802 /* cvfPartRenderHintCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0CE122C54D300FE9802 /* cvfPartRenderHintCollection.h */; };
+		D804A103122C54D300FE9802 /* cvfPerformanceInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0CF122C54D300FE9802 /* cvfPerformanceInfo.cpp */; };
+		D804A104122C54D300FE9802 /* cvfPerformanceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0D0122C54D300FE9802 /* cvfPerformanceInfo.h */; };
+		D804A109122C54D300FE9802 /* cvfRenderEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0D5122C54D300FE9802 /* cvfRenderEngine.cpp */; };
+		D804A10A122C54D300FE9802 /* cvfRenderEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0D6122C54D300FE9802 /* cvfRenderEngine.h */; };
+		D804A10B122C54D300FE9802 /* cvfRendering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0D7122C54D300FE9802 /* cvfRendering.cpp */; };
+		D804A10C122C54D300FE9802 /* cvfRendering.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0D8122C54D300FE9802 /* cvfRendering.h */; };
+		D804A10D122C54D300FE9802 /* cvfRenderQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0D9122C54D300FE9802 /* cvfRenderQueue.cpp */; };
+		D804A10E122C54D300FE9802 /* cvfRenderQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0DA122C54D300FE9802 /* cvfRenderQueue.h */; };
+		D804A10F122C54D300FE9802 /* cvfRenderQueueBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0DB122C54D300FE9802 /* cvfRenderQueueBuilder.cpp */; };
+		D804A110122C54D300FE9802 /* cvfRenderQueueBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0DC122C54D300FE9802 /* cvfRenderQueueBuilder.h */; };
+		D804A111122C54D300FE9802 /* cvfRenderQueueSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0DD122C54D300FE9802 /* cvfRenderQueueSorter.cpp */; };
+		D804A112122C54D300FE9802 /* cvfRenderQueueSorter.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0DE122C54D300FE9802 /* cvfRenderQueueSorter.h */; };
+		D804A115122C54D300FE9802 /* cvfScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0E1122C54D300FE9802 /* cvfScene.cpp */; };
+		D804A116122C54D300FE9802 /* cvfScene.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0E2122C54D300FE9802 /* cvfScene.h */; };
+		D804A117122C54D300FE9802 /* cvfTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D804A0E3122C54D300FE9802 /* cvfTransform.cpp */; };
+		D804A118122C54D300FE9802 /* cvfTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D804A0E4122C54D300FE9802 /* cvfTransform.h */; };
+		D882CC3B132E51C000F12B68 /* LibViewing_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = D882CC3A132E51C000F12B68 /* LibViewing_Prefix.pch */; };
+		D882CDB5136EAC8100F12B68 /* cvfDynamicUniformSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CDB0136EAC8100F12B68 /* cvfDynamicUniformSet.cpp */; };
+		D882CDB6136EAC8100F12B68 /* cvfDynamicUniformSet.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CDB1136EAC8100F12B68 /* cvfDynamicUniformSet.h */; };
+		D882CDB7136EAC8100F12B68 /* cvfLibViewing.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CDB2136EAC8100F12B68 /* cvfLibViewing.h */; };
+		D882CDB8136EAC8100F12B68 /* cvfSingleQuadRenderingGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882CDB3136EAC8100F12B68 /* cvfSingleQuadRenderingGenerator.cpp */; };
+		D882CDB9136EAC8100F12B68 /* cvfSingleQuadRenderingGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CDB4136EAC8100F12B68 /* cvfSingleQuadRenderingGenerator.h */; };
+		D8883AD3175933C900D6C6F5 /* cvfFixedSizeTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8883ACD175933C900D6C6F5 /* cvfFixedSizeTransform.cpp */; };
+		D8883AD4175933C900D6C6F5 /* cvfFixedSizeTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D8883ACE175933C900D6C6F5 /* cvfFixedSizeTransform.h */; };
+		D8883AD5175933C900D6C6F5 /* cvfGaussianBlur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8883ACF175933C900D6C6F5 /* cvfGaussianBlur.cpp */; };
+		D8883AD6175933C900D6C6F5 /* cvfGaussianBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = D8883AD0175933C900D6C6F5 /* cvfGaussianBlur.h */; };
+		D8883AD7175933C900D6C6F5 /* cvfPartHighlighter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8883AD1175933C900D6C6F5 /* cvfPartHighlighter.cpp */; };
+		D8883AD8175933C900D6C6F5 /* cvfPartHighlighter.h in Headers */ = {isa = PBXBuildFile; fileRef = D8883AD2175933C900D6C6F5 /* cvfPartHighlighter.h */; };
+		D8BC948A153B027700460BFE /* cvfClipPlaneSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC9486153B027700460BFE /* cvfClipPlaneSet.cpp */; };
+		D8BC948B153B027700460BFE /* cvfClipPlaneSet.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC9487153B027700460BFE /* cvfClipPlaneSet.h */; };
+		D8BC948C153B027700460BFE /* cvfRenderSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BC9488153B027700460BFE /* cvfRenderSequence.cpp */; };
+		D8BC948D153B027700460BFE /* cvfRenderSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC9489153B027700460BFE /* cvfRenderSequence.h */; };
+		D8CA1F36147309A0003EB29D /* cvfHitItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8CA1F30147309A0003EB29D /* cvfHitItem.cpp */; };
+		D8CA1F37147309A0003EB29D /* cvfHitItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA1F31147309A0003EB29D /* cvfHitItem.h */; };
+		D8CA1F38147309A0003EB29D /* cvfHitItemCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8CA1F32147309A0003EB29D /* cvfHitItemCollection.cpp */; };
+		D8CA1F39147309A0003EB29D /* cvfHitItemCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA1F33147309A0003EB29D /* cvfHitItemCollection.h */; };
+		D8CA1F3A147309A0003EB29D /* cvfRayIntersectSpec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8CA1F34147309A0003EB29D /* cvfRayIntersectSpec.cpp */; };
+		D8CA1F3B147309A0003EB29D /* cvfRayIntersectSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA1F35147309A0003EB29D /* cvfRayIntersectSpec.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libLibViewing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibViewing.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D804A0B4122C54D300FE9802 /* cvfConstantFrameRate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfConstantFrameRate.cpp; sourceTree = "<group>"; };
+		D804A0B5122C54D300FE9802 /* cvfConstantFrameRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfConstantFrameRate.h; sourceTree = "<group>"; };
+		D804A0B6122C54D300FE9802 /* cvfCullSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfCullSettings.cpp; sourceTree = "<group>"; };
+		D804A0B7122C54D300FE9802 /* cvfCullSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfCullSettings.h; sourceTree = "<group>"; };
+		D804A0B8122C54D300FE9802 /* cvfEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfEffect.cpp; sourceTree = "<group>"; };
+		D804A0B9122C54D300FE9802 /* cvfEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfEffect.h; sourceTree = "<group>"; };
+		D804A0BD122C54D300FE9802 /* cvfLocators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfLocators.cpp; sourceTree = "<group>"; };
+		D804A0BE122C54D300FE9802 /* cvfLocators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLocators.h; sourceTree = "<group>"; };
+		D804A0BF122C54D300FE9802 /* cvfManipulatorTrackball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfManipulatorTrackball.cpp; sourceTree = "<group>"; };
+		D804A0C0122C54D300FE9802 /* cvfManipulatorTrackball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfManipulatorTrackball.h; sourceTree = "<group>"; };
+		D804A0C1122C54D300FE9802 /* cvfModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfModel.cpp; sourceTree = "<group>"; };
+		D804A0C2122C54D300FE9802 /* cvfModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfModel.h; sourceTree = "<group>"; };
+		D804A0C3122C54D300FE9802 /* cvfModelBasicList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfModelBasicList.cpp; sourceTree = "<group>"; };
+		D804A0C4122C54D300FE9802 /* cvfModelBasicList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfModelBasicList.h; sourceTree = "<group>"; };
+		D804A0C5122C54D300FE9802 /* cvfModelBasicTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfModelBasicTree.cpp; sourceTree = "<group>"; };
+		D804A0C6122C54D300FE9802 /* cvfModelBasicTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfModelBasicTree.h; sourceTree = "<group>"; };
+		D804A0C9122C54D300FE9802 /* cvfPart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPart.cpp; sourceTree = "<group>"; };
+		D804A0CA122C54D300FE9802 /* cvfPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPart.h; sourceTree = "<group>"; };
+		D804A0CD122C54D300FE9802 /* cvfPartRenderHintCollection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPartRenderHintCollection.cpp; sourceTree = "<group>"; };
+		D804A0CE122C54D300FE9802 /* cvfPartRenderHintCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPartRenderHintCollection.h; sourceTree = "<group>"; };
+		D804A0CF122C54D300FE9802 /* cvfPerformanceInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPerformanceInfo.cpp; sourceTree = "<group>"; };
+		D804A0D0122C54D300FE9802 /* cvfPerformanceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPerformanceInfo.h; sourceTree = "<group>"; };
+		D804A0D5122C54D300FE9802 /* cvfRenderEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderEngine.cpp; sourceTree = "<group>"; };
+		D804A0D6122C54D300FE9802 /* cvfRenderEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderEngine.h; sourceTree = "<group>"; };
+		D804A0D7122C54D300FE9802 /* cvfRendering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRendering.cpp; sourceTree = "<group>"; };
+		D804A0D8122C54D300FE9802 /* cvfRendering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRendering.h; sourceTree = "<group>"; };
+		D804A0D9122C54D300FE9802 /* cvfRenderQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderQueue.cpp; sourceTree = "<group>"; };
+		D804A0DA122C54D300FE9802 /* cvfRenderQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderQueue.h; sourceTree = "<group>"; };
+		D804A0DB122C54D300FE9802 /* cvfRenderQueueBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderQueueBuilder.cpp; sourceTree = "<group>"; };
+		D804A0DC122C54D300FE9802 /* cvfRenderQueueBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderQueueBuilder.h; sourceTree = "<group>"; };
+		D804A0DD122C54D300FE9802 /* cvfRenderQueueSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderQueueSorter.cpp; sourceTree = "<group>"; };
+		D804A0DE122C54D300FE9802 /* cvfRenderQueueSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderQueueSorter.h; sourceTree = "<group>"; };
+		D804A0E1122C54D300FE9802 /* cvfScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfScene.cpp; sourceTree = "<group>"; };
+		D804A0E2122C54D300FE9802 /* cvfScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfScene.h; sourceTree = "<group>"; };
+		D804A0E3122C54D300FE9802 /* cvfTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfTransform.cpp; sourceTree = "<group>"; };
+		D804A0E4122C54D300FE9802 /* cvfTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfTransform.h; sourceTree = "<group>"; };
+		D882CC3A132E51C000F12B68 /* LibViewing_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibViewing_Prefix.pch; sourceTree = "<group>"; };
+		D882CDB0136EAC8100F12B68 /* cvfDynamicUniformSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfDynamicUniformSet.cpp; sourceTree = "<group>"; };
+		D882CDB1136EAC8100F12B68 /* cvfDynamicUniformSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfDynamicUniformSet.h; sourceTree = "<group>"; };
+		D882CDB2136EAC8100F12B68 /* cvfLibViewing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLibViewing.h; sourceTree = "<group>"; };
+		D882CDB3136EAC8100F12B68 /* cvfSingleQuadRenderingGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfSingleQuadRenderingGenerator.cpp; sourceTree = "<group>"; };
+		D882CDB4136EAC8100F12B68 /* cvfSingleQuadRenderingGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfSingleQuadRenderingGenerator.h; sourceTree = "<group>"; };
+		D8883ACD175933C900D6C6F5 /* cvfFixedSizeTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfFixedSizeTransform.cpp; sourceTree = "<group>"; };
+		D8883ACE175933C900D6C6F5 /* cvfFixedSizeTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfFixedSizeTransform.h; sourceTree = "<group>"; };
+		D8883ACF175933C900D6C6F5 /* cvfGaussianBlur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfGaussianBlur.cpp; sourceTree = "<group>"; };
+		D8883AD0175933C900D6C6F5 /* cvfGaussianBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfGaussianBlur.h; sourceTree = "<group>"; };
+		D8883AD1175933C900D6C6F5 /* cvfPartHighlighter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPartHighlighter.cpp; sourceTree = "<group>"; };
+		D8883AD2175933C900D6C6F5 /* cvfPartHighlighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPartHighlighter.h; sourceTree = "<group>"; };
+		D8BC9486153B027700460BFE /* cvfClipPlaneSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfClipPlaneSet.cpp; sourceTree = "<group>"; };
+		D8BC9487153B027700460BFE /* cvfClipPlaneSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfClipPlaneSet.h; sourceTree = "<group>"; };
+		D8BC9488153B027700460BFE /* cvfRenderSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRenderSequence.cpp; sourceTree = "<group>"; };
+		D8BC9489153B027700460BFE /* cvfRenderSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRenderSequence.h; sourceTree = "<group>"; };
+		D8CA1F30147309A0003EB29D /* cvfHitItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfHitItem.cpp; sourceTree = "<group>"; };
+		D8CA1F31147309A0003EB29D /* cvfHitItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfHitItem.h; sourceTree = "<group>"; };
+		D8CA1F32147309A0003EB29D /* cvfHitItemCollection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfHitItemCollection.cpp; sourceTree = "<group>"; };
+		D8CA1F33147309A0003EB29D /* cvfHitItemCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfHitItemCollection.h; sourceTree = "<group>"; };
+		D8CA1F34147309A0003EB29D /* cvfRayIntersectSpec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfRayIntersectSpec.cpp; sourceTree = "<group>"; };
+		D8CA1F35147309A0003EB29D /* cvfRayIntersectSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRayIntersectSpec.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libLibViewing.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* LibCeeViz */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = LibCeeViz;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8883ACD175933C900D6C6F5 /* cvfFixedSizeTransform.cpp */,
+				D8883ACE175933C900D6C6F5 /* cvfFixedSizeTransform.h */,
+				D8883ACF175933C900D6C6F5 /* cvfGaussianBlur.cpp */,
+				D8883AD0175933C900D6C6F5 /* cvfGaussianBlur.h */,
+				D8883AD1175933C900D6C6F5 /* cvfPartHighlighter.cpp */,
+				D8883AD2175933C900D6C6F5 /* cvfPartHighlighter.h */,
+				D8BC9486153B027700460BFE /* cvfClipPlaneSet.cpp */,
+				D8BC9487153B027700460BFE /* cvfClipPlaneSet.h */,
+				D8BC9488153B027700460BFE /* cvfRenderSequence.cpp */,
+				D8BC9489153B027700460BFE /* cvfRenderSequence.h */,
+				D8CA1F30147309A0003EB29D /* cvfHitItem.cpp */,
+				D8CA1F31147309A0003EB29D /* cvfHitItem.h */,
+				D8CA1F32147309A0003EB29D /* cvfHitItemCollection.cpp */,
+				D8CA1F33147309A0003EB29D /* cvfHitItemCollection.h */,
+				D8CA1F34147309A0003EB29D /* cvfRayIntersectSpec.cpp */,
+				D8CA1F35147309A0003EB29D /* cvfRayIntersectSpec.h */,
+				D882CDB0136EAC8100F12B68 /* cvfDynamicUniformSet.cpp */,
+				D882CDB1136EAC8100F12B68 /* cvfDynamicUniformSet.h */,
+				D882CDB2136EAC8100F12B68 /* cvfLibViewing.h */,
+				D882CDB3136EAC8100F12B68 /* cvfSingleQuadRenderingGenerator.cpp */,
+				D882CDB4136EAC8100F12B68 /* cvfSingleQuadRenderingGenerator.h */,
+				D804A0B4122C54D300FE9802 /* cvfConstantFrameRate.cpp */,
+				D804A0B5122C54D300FE9802 /* cvfConstantFrameRate.h */,
+				D804A0B6122C54D300FE9802 /* cvfCullSettings.cpp */,
+				D804A0B7122C54D300FE9802 /* cvfCullSettings.h */,
+				D804A0B8122C54D300FE9802 /* cvfEffect.cpp */,
+				D804A0B9122C54D300FE9802 /* cvfEffect.h */,
+				D804A0BD122C54D300FE9802 /* cvfLocators.cpp */,
+				D804A0BE122C54D300FE9802 /* cvfLocators.h */,
+				D804A0BF122C54D300FE9802 /* cvfManipulatorTrackball.cpp */,
+				D804A0C0122C54D300FE9802 /* cvfManipulatorTrackball.h */,
+				D804A0C1122C54D300FE9802 /* cvfModel.cpp */,
+				D804A0C2122C54D300FE9802 /* cvfModel.h */,
+				D804A0C3122C54D300FE9802 /* cvfModelBasicList.cpp */,
+				D804A0C4122C54D300FE9802 /* cvfModelBasicList.h */,
+				D804A0C5122C54D300FE9802 /* cvfModelBasicTree.cpp */,
+				D804A0C6122C54D300FE9802 /* cvfModelBasicTree.h */,
+				D804A0C9122C54D300FE9802 /* cvfPart.cpp */,
+				D804A0CA122C54D300FE9802 /* cvfPart.h */,
+				D804A0CD122C54D300FE9802 /* cvfPartRenderHintCollection.cpp */,
+				D804A0CE122C54D300FE9802 /* cvfPartRenderHintCollection.h */,
+				D804A0CF122C54D300FE9802 /* cvfPerformanceInfo.cpp */,
+				D804A0D0122C54D300FE9802 /* cvfPerformanceInfo.h */,
+				D804A0D5122C54D300FE9802 /* cvfRenderEngine.cpp */,
+				D804A0D6122C54D300FE9802 /* cvfRenderEngine.h */,
+				D804A0D7122C54D300FE9802 /* cvfRendering.cpp */,
+				D804A0D8122C54D300FE9802 /* cvfRendering.h */,
+				D804A0D9122C54D300FE9802 /* cvfRenderQueue.cpp */,
+				D804A0DA122C54D300FE9802 /* cvfRenderQueue.h */,
+				D804A0DB122C54D300FE9802 /* cvfRenderQueueBuilder.cpp */,
+				D804A0DC122C54D300FE9802 /* cvfRenderQueueBuilder.h */,
+				D804A0DD122C54D300FE9802 /* cvfRenderQueueSorter.cpp */,
+				D804A0DE122C54D300FE9802 /* cvfRenderQueueSorter.h */,
+				D804A0E1122C54D300FE9802 /* cvfScene.cpp */,
+				D804A0E2122C54D300FE9802 /* cvfScene.h */,
+				D804A0E3122C54D300FE9802 /* cvfTransform.cpp */,
+				D804A0E4122C54D300FE9802 /* cvfTransform.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D882CC3A132E51C000F12B68 /* LibViewing_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D804A0E9122C54D300FE9802 /* cvfConstantFrameRate.h in Headers */,
+				D804A0EB122C54D300FE9802 /* cvfCullSettings.h in Headers */,
+				D804A0ED122C54D300FE9802 /* cvfEffect.h in Headers */,
+				D804A0F2122C54D300FE9802 /* cvfLocators.h in Headers */,
+				D804A0F4122C54D300FE9802 /* cvfManipulatorTrackball.h in Headers */,
+				D804A0F6122C54D300FE9802 /* cvfModel.h in Headers */,
+				D804A0F8122C54D300FE9802 /* cvfModelBasicList.h in Headers */,
+				D804A0FA122C54D300FE9802 /* cvfModelBasicTree.h in Headers */,
+				D804A0FE122C54D300FE9802 /* cvfPart.h in Headers */,
+				D804A102122C54D300FE9802 /* cvfPartRenderHintCollection.h in Headers */,
+				D804A104122C54D300FE9802 /* cvfPerformanceInfo.h in Headers */,
+				D804A10A122C54D300FE9802 /* cvfRenderEngine.h in Headers */,
+				D804A10C122C54D300FE9802 /* cvfRendering.h in Headers */,
+				D804A10E122C54D300FE9802 /* cvfRenderQueue.h in Headers */,
+				D804A110122C54D300FE9802 /* cvfRenderQueueBuilder.h in Headers */,
+				D804A112122C54D300FE9802 /* cvfRenderQueueSorter.h in Headers */,
+				D804A116122C54D300FE9802 /* cvfScene.h in Headers */,
+				D804A118122C54D300FE9802 /* cvfTransform.h in Headers */,
+				D882CC3B132E51C000F12B68 /* LibViewing_Prefix.pch in Headers */,
+				D882CDB6136EAC8100F12B68 /* cvfDynamicUniformSet.h in Headers */,
+				D882CDB7136EAC8100F12B68 /* cvfLibViewing.h in Headers */,
+				D882CDB9136EAC8100F12B68 /* cvfSingleQuadRenderingGenerator.h in Headers */,
+				D8CA1F37147309A0003EB29D /* cvfHitItem.h in Headers */,
+				D8CA1F39147309A0003EB29D /* cvfHitItemCollection.h in Headers */,
+				D8CA1F3B147309A0003EB29D /* cvfRayIntersectSpec.h in Headers */,
+				D8BC948B153B027700460BFE /* cvfClipPlaneSet.h in Headers */,
+				D8BC948D153B027700460BFE /* cvfRenderSequence.h in Headers */,
+				D8883AD4175933C900D6C6F5 /* cvfFixedSizeTransform.h in Headers */,
+				D8883AD6175933C900D6C6F5 /* cvfGaussianBlur.h in Headers */,
+				D8883AD8175933C900D6C6F5 /* cvfPartHighlighter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* LibViewing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LibViewing" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibViewing;
+			productName = LibCeeViz;
+			productReference = D2AAC07E0554694100DB518D /* libLibViewing.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LibViewing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* LibCeeViz */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* LibViewing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D804A0E8122C54D300FE9802 /* cvfConstantFrameRate.cpp in Sources */,
+				D804A0EA122C54D300FE9802 /* cvfCullSettings.cpp in Sources */,
+				D804A0EC122C54D300FE9802 /* cvfEffect.cpp in Sources */,
+				D804A0F1122C54D300FE9802 /* cvfLocators.cpp in Sources */,
+				D804A0F3122C54D300FE9802 /* cvfManipulatorTrackball.cpp in Sources */,
+				D804A0F5122C54D300FE9802 /* cvfModel.cpp in Sources */,
+				D804A0F7122C54D300FE9802 /* cvfModelBasicList.cpp in Sources */,
+				D804A0F9122C54D300FE9802 /* cvfModelBasicTree.cpp in Sources */,
+				D804A0FD122C54D300FE9802 /* cvfPart.cpp in Sources */,
+				D804A101122C54D300FE9802 /* cvfPartRenderHintCollection.cpp in Sources */,
+				D804A103122C54D300FE9802 /* cvfPerformanceInfo.cpp in Sources */,
+				D804A109122C54D300FE9802 /* cvfRenderEngine.cpp in Sources */,
+				D804A10B122C54D300FE9802 /* cvfRendering.cpp in Sources */,
+				D804A10D122C54D300FE9802 /* cvfRenderQueue.cpp in Sources */,
+				D804A10F122C54D300FE9802 /* cvfRenderQueueBuilder.cpp in Sources */,
+				D804A111122C54D300FE9802 /* cvfRenderQueueSorter.cpp in Sources */,
+				D804A115122C54D300FE9802 /* cvfScene.cpp in Sources */,
+				D804A117122C54D300FE9802 /* cvfTransform.cpp in Sources */,
+				D882CDB5136EAC8100F12B68 /* cvfDynamicUniformSet.cpp in Sources */,
+				D882CDB8136EAC8100F12B68 /* cvfSingleQuadRenderingGenerator.cpp in Sources */,
+				D8CA1F36147309A0003EB29D /* cvfHitItem.cpp in Sources */,
+				D8CA1F38147309A0003EB29D /* cvfHitItemCollection.cpp in Sources */,
+				D8CA1F3A147309A0003EB29D /* cvfRayIntersectSpec.cpp in Sources */,
+				D8BC948A153B027700460BFE /* cvfClipPlaneSet.cpp in Sources */,
+				D8BC948C153B027700460BFE /* cvfRenderSequence.cpp in Sources */,
+				D8883AD3175933C900D6C6F5 /* cvfFixedSizeTransform.cpp in Sources */,
+				D8883AD5175933C900D6C6F5 /* cvfGaussianBlur.cpp in Sources */,
+				D8883AD7175933C900D6C6F5 /* cvfPartHighlighter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/LibViewing.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibViewing_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibViewing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/LibViewing.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibViewing_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibViewing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CVF_IOS,
+					CVF_OPENGL_ES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../LibGeometry,
+					../LibRender,
+					../LibCore,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CVF_IOS,
+					CVF_OPENGL_ES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../LibGeometry,
+					../LibRender,
+					../LibCore,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D8AEF42212663C540008451F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CVF_IOS,
+					CVF_OPENGL_ES,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../LibGeometry,
+					../LibRender,
+					../LibCore,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		D8AEF42312663C540008451F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/LibViewing.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibViewing_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibViewing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LibViewing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+				D8AEF42312663C540008451F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LibViewing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+				D8AEF42212663C540008451F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

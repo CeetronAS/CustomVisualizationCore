@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* LibCore_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LibCore_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D82587D71758AAD000401BDA /* cvfCodeLocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82587C41758AAD000401BDA /* cvfCodeLocation.cpp */; };
+		D82587D81758AAD000401BDA /* cvfCodeLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587C51758AAD000401BDA /* cvfCodeLocation.h */; };
+		D82587D91758AAD000401BDA /* cvfLogDestination.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587C61758AAD000401BDA /* cvfLogDestination.h */; };
+		D82587DA1758AAD000401BDA /* cvfLogDestinationConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82587C71758AAD000401BDA /* cvfLogDestinationConsole.cpp */; };
+		D82587DB1758AAD000401BDA /* cvfLogDestinationConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587C81758AAD000401BDA /* cvfLogDestinationConsole.h */; };
+		D82587DC1758AAD000401BDA /* cvfLogDestinationFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82587C91758AAD000401BDA /* cvfLogDestinationFile.cpp */; };
+		D82587DD1758AAD000401BDA /* cvfLogDestinationFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587CA1758AAD000401BDA /* cvfLogDestinationFile.h */; };
+		D82587DE1758AAD000401BDA /* cvfLogEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82587CB1758AAD000401BDA /* cvfLogEvent.cpp */; };
+		D82587DF1758AAD000401BDA /* cvfLogEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587CC1758AAD000401BDA /* cvfLogEvent.h */; };
+		D82587E01758AAD000401BDA /* cvfLogManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82587CD1758AAD000401BDA /* cvfLogManager.cpp */; };
+		D82587E11758AAD000401BDA /* cvfLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587CE1758AAD000401BDA /* cvfLogManager.h */; };
+		D82587E21758AAD000401BDA /* cvfMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82587CF1758AAD000401BDA /* cvfMutex.cpp */; };
+		D82587E31758AAD000401BDA /* cvfMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587D01758AAD000401BDA /* cvfMutex.h */; };
+		D82587E41758AAD000401BDA /* cvfPropertySet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82587D11758AAD000401BDA /* cvfPropertySet.cpp */; };
+		D82587E51758AAD000401BDA /* cvfPropertySet.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587D21758AAD000401BDA /* cvfPropertySet.h */; };
+		D82587E61758AAD000401BDA /* cvfPropertySetCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82587D31758AAD000401BDA /* cvfPropertySetCollection.cpp */; };
+		D82587E71758AAD000401BDA /* cvfPropertySetCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587D41758AAD000401BDA /* cvfPropertySetCollection.h */; };
+		D82587E81758AAD000401BDA /* cvfVariant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82587D51758AAD000401BDA /* cvfVariant.cpp */; };
+		D82587E91758AAD000401BDA /* cvfVariant.h in Headers */ = {isa = PBXBuildFile; fileRef = D82587D61758AAD000401BDA /* cvfVariant.h */; };
+		D882CD03136EA41800F12B68 /* cvfValueArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D882CD02136EA41800F12B68 /* cvfValueArray.h */; };
+		D8AB0CD3122BB65E00FD08EC /* cvfArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0C9E122BB65E00FD08EC /* cvfArray.h */; };
+		D8AB0CD4122BB65E00FD08EC /* cvfAssert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CA0122BB65E00FD08EC /* cvfAssert.cpp */; };
+		D8AB0CD5122BB65E00FD08EC /* cvfAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CA1122BB65E00FD08EC /* cvfAssert.h */; };
+		D8AB0CD6122BB65E00FD08EC /* cvfBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CA2122BB65E00FD08EC /* cvfBase.h */; };
+		D8AB0CD7122BB65E00FD08EC /* cvfCharArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CA3122BB65E00FD08EC /* cvfCharArray.cpp */; };
+		D8AB0CD8122BB65E00FD08EC /* cvfCharArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CA4122BB65E00FD08EC /* cvfCharArray.h */; };
+		D8AB0CD9122BB65E00FD08EC /* cvfCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CA5122BB65E00FD08EC /* cvfCollection.h */; };
+		D8AB0CDA122BB65E00FD08EC /* cvfColor3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CA7122BB65E00FD08EC /* cvfColor3.cpp */; };
+		D8AB0CDB122BB65E00FD08EC /* cvfColor3.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CA8122BB65E00FD08EC /* cvfColor3.h */; };
+		D8AB0CDC122BB65E00FD08EC /* cvfColor4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CA9122BB65E00FD08EC /* cvfColor4.cpp */; };
+		D8AB0CDD122BB65E00FD08EC /* cvfColor4.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CAA122BB65E00FD08EC /* cvfColor4.h */; };
+		D8AB0CDE122BB65E00FD08EC /* cvfConfigCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CAB122BB65E00FD08EC /* cvfConfigCore.h */; };
+		D8AB0CDF122BB65E00FD08EC /* cvfDebugTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CAC122BB65E00FD08EC /* cvfDebugTimer.cpp */; };
+		D8AB0CE0122BB65E00FD08EC /* cvfDebugTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CAD122BB65E00FD08EC /* cvfDebugTimer.h */; };
+		D8AB0CE1122BB65E00FD08EC /* cvfFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CAE122BB65E00FD08EC /* cvfFlags.h */; };
+		D8AB0CE2122BB65E00FD08EC /* cvfLibCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CB0122BB65E00FD08EC /* cvfLibCore.h */; };
+		D8AB0CE5122BB65E00FD08EC /* cvfMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CB3122BB65E00FD08EC /* cvfMath.cpp */; };
+		D8AB0CE6122BB65E00FD08EC /* cvfMath.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CB4122BB65E00FD08EC /* cvfMath.h */; };
+		D8AB0CE7122BB65E00FD08EC /* cvfMatrix4.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CB6122BB65E00FD08EC /* cvfMatrix4.h */; };
+		D8AB0CE8122BB65E00FD08EC /* cvfObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CB8122BB65E00FD08EC /* cvfObject.cpp */; };
+		D8AB0CE9122BB65E00FD08EC /* cvfObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CB9122BB65E00FD08EC /* cvfObject.h */; };
+		D8AB0CEA122BB65E00FD08EC /* cvfPlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CBB122BB65E00FD08EC /* cvfPlane.cpp */; };
+		D8AB0CEB122BB65E00FD08EC /* cvfPlane.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CBC122BB65E00FD08EC /* cvfPlane.h */; };
+		D8AB0CEC122BB65E00FD08EC /* cvfQuat.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CBD122BB65E00FD08EC /* cvfQuat.h */; };
+		D8AB0CED122BB65E00FD08EC /* cvfRect.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CBF122BB65E00FD08EC /* cvfRect.h */; };
+		D8AB0CEE122BB65E00FD08EC /* cvfString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CC1122BB65E00FD08EC /* cvfString.cpp */; };
+		D8AB0CEF122BB65E00FD08EC /* cvfString.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CC2122BB65E00FD08EC /* cvfString.h */; };
+		D8AB0CF0122BB65E00FD08EC /* cvfSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CC3122BB65E00FD08EC /* cvfSystem.cpp */; };
+		D8AB0CF1122BB65E00FD08EC /* cvfSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CC4122BB65E00FD08EC /* cvfSystem.h */; };
+		D8AB0CF2122BB65E00FD08EC /* cvfTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CC5122BB65E00FD08EC /* cvfTimer.cpp */; };
+		D8AB0CF3122BB65E00FD08EC /* cvfTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CC6122BB65E00FD08EC /* cvfTimer.h */; };
+		D8AB0CF4122BB65E00FD08EC /* cvfTrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CC7122BB65E00FD08EC /* cvfTrace.cpp */; };
+		D8AB0CF5122BB65E00FD08EC /* cvfTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CC8122BB65E00FD08EC /* cvfTrace.h */; };
+		D8AB0CF6122BB65E00FD08EC /* cvfVector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CC9122BB65E00FD08EC /* cvfVector2.cpp */; };
+		D8AB0CF7122BB65E00FD08EC /* cvfVector2.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CCA122BB65E00FD08EC /* cvfVector2.h */; };
+		D8AB0CF8122BB65E00FD08EC /* cvfVector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CCC122BB65E00FD08EC /* cvfVector3.cpp */; };
+		D8AB0CF9122BB65E00FD08EC /* cvfVector3.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CCD122BB65E00FD08EC /* cvfVector3.h */; };
+		D8AB0CFA122BB65E00FD08EC /* cvfVector4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AB0CCF122BB65E00FD08EC /* cvfVector4.cpp */; };
+		D8AB0CFB122BB65E00FD08EC /* cvfVector4.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CD0122BB65E00FD08EC /* cvfVector4.h */; };
+		D8AB0CFC122BB65E00FD08EC /* cvfVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB0CD2122BB65E00FD08EC /* cvfVersion.h */; };
+		D8AF792B13C328C500DDB842 /* cvfFunctorRange.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AF792813C328C500DDB842 /* cvfFunctorRange.h */; };
+		D8AF792C13C328C500DDB842 /* cvfTBBControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AF792913C328C500DDB842 /* cvfTBBControl.cpp */; };
+		D8AF792D13C328C500DDB842 /* cvfTBBControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AF792A13C328C500DDB842 /* cvfTBBControl.h */; };
+		D8B12C77124CAE4E00386CF5 /* cvfMatrix3.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B12C75124CAE4E00386CF5 /* cvfMatrix3.h */; };
+		D8CA1F2D14730780003EB29D /* cvfLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8CA1F2B14730780003EB29D /* cvfLogger.cpp */; };
+		D8CA1F2E14730780003EB29D /* cvfLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA1F2C14730780003EB29D /* cvfLogger.h */; };
+		D8F900F8137D3069001BF1A5 /* cvfBase64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8F900F6137D3069001BF1A5 /* cvfBase64.cpp */; };
+		D8F900F9137D3069001BF1A5 /* cvfBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F900F7137D3069001BF1A5 /* cvfBase64.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73B995D013CDF7AF00ABA745 /* libLibGeometry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLibGeometry.a; path = "../LibGeometry/build/Release-iphoneos/libLibGeometry.a"; sourceTree = "<group>"; };
+		73B995D113CDF7AF00ABA745 /* libLibIo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLibIo.a; path = "../LibIo/build/Release-iphoneos/libLibIo.a"; sourceTree = "<group>"; };
+		73B995D213CDF7AF00ABA745 /* libLibRender.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLibRender.a; path = "../LibRender/build/Release-iphoneos/libLibRender.a"; sourceTree = "<group>"; };
+		73B995D313CDF7AF00ABA745 /* libLibUnstructDisplay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLibUnstructDisplay.a; path = "../LibUnstructDisplay/build/Release-iphoneos/libLibUnstructDisplay.a"; sourceTree = "<group>"; };
+		73B995D413CDF7AF00ABA745 /* libLibUnstructGrid.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLibUnstructGrid.a; path = "../LibUnstructGrid/build/Release-iphoneos/libLibUnstructGrid.a"; sourceTree = "<group>"; };
+		73B995D513CDF7AF00ABA745 /* libLibViewing.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLibViewing.a; path = "../LibViewing/build/Release-iphoneos/libLibViewing.a"; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* LibCore_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibCore_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libLibCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82587C41758AAD000401BDA /* cvfCodeLocation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfCodeLocation.cpp; sourceTree = "<group>"; };
+		D82587C51758AAD000401BDA /* cvfCodeLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfCodeLocation.h; sourceTree = "<group>"; };
+		D82587C61758AAD000401BDA /* cvfLogDestination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLogDestination.h; sourceTree = "<group>"; };
+		D82587C71758AAD000401BDA /* cvfLogDestinationConsole.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfLogDestinationConsole.cpp; sourceTree = "<group>"; };
+		D82587C81758AAD000401BDA /* cvfLogDestinationConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLogDestinationConsole.h; sourceTree = "<group>"; };
+		D82587C91758AAD000401BDA /* cvfLogDestinationFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfLogDestinationFile.cpp; sourceTree = "<group>"; };
+		D82587CA1758AAD000401BDA /* cvfLogDestinationFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLogDestinationFile.h; sourceTree = "<group>"; };
+		D82587CB1758AAD000401BDA /* cvfLogEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfLogEvent.cpp; sourceTree = "<group>"; };
+		D82587CC1758AAD000401BDA /* cvfLogEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLogEvent.h; sourceTree = "<group>"; };
+		D82587CD1758AAD000401BDA /* cvfLogManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfLogManager.cpp; sourceTree = "<group>"; };
+		D82587CE1758AAD000401BDA /* cvfLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLogManager.h; sourceTree = "<group>"; };
+		D82587CF1758AAD000401BDA /* cvfMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfMutex.cpp; sourceTree = "<group>"; };
+		D82587D01758AAD000401BDA /* cvfMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfMutex.h; sourceTree = "<group>"; };
+		D82587D11758AAD000401BDA /* cvfPropertySet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPropertySet.cpp; sourceTree = "<group>"; };
+		D82587D21758AAD000401BDA /* cvfPropertySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPropertySet.h; sourceTree = "<group>"; };
+		D82587D31758AAD000401BDA /* cvfPropertySetCollection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPropertySetCollection.cpp; sourceTree = "<group>"; };
+		D82587D41758AAD000401BDA /* cvfPropertySetCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPropertySetCollection.h; sourceTree = "<group>"; };
+		D82587D51758AAD000401BDA /* cvfVariant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfVariant.cpp; sourceTree = "<group>"; };
+		D82587D61758AAD000401BDA /* cvfVariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfVariant.h; sourceTree = "<group>"; };
+		D882CD02136EA41800F12B68 /* cvfValueArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfValueArray.h; sourceTree = "<group>"; };
+		D8AB0C9E122BB65E00FD08EC /* cvfArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfArray.h; sourceTree = "<group>"; };
+		D8AB0C9F122BB65E00FD08EC /* cvfArray.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfArray.inl; sourceTree = "<group>"; };
+		D8AB0CA0122BB65E00FD08EC /* cvfAssert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfAssert.cpp; sourceTree = "<group>"; };
+		D8AB0CA1122BB65E00FD08EC /* cvfAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfAssert.h; sourceTree = "<group>"; };
+		D8AB0CA2122BB65E00FD08EC /* cvfBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfBase.h; sourceTree = "<group>"; };
+		D8AB0CA3122BB65E00FD08EC /* cvfCharArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfCharArray.cpp; sourceTree = "<group>"; };
+		D8AB0CA4122BB65E00FD08EC /* cvfCharArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfCharArray.h; sourceTree = "<group>"; };
+		D8AB0CA5122BB65E00FD08EC /* cvfCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfCollection.h; sourceTree = "<group>"; };
+		D8AB0CA6122BB65E00FD08EC /* cvfCollection.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfCollection.inl; sourceTree = "<group>"; };
+		D8AB0CA7122BB65E00FD08EC /* cvfColor3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfColor3.cpp; sourceTree = "<group>"; };
+		D8AB0CA8122BB65E00FD08EC /* cvfColor3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfColor3.h; sourceTree = "<group>"; };
+		D8AB0CA9122BB65E00FD08EC /* cvfColor4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfColor4.cpp; sourceTree = "<group>"; };
+		D8AB0CAA122BB65E00FD08EC /* cvfColor4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfColor4.h; sourceTree = "<group>"; };
+		D8AB0CAB122BB65E00FD08EC /* cvfConfigCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfConfigCore.h; sourceTree = "<group>"; };
+		D8AB0CAC122BB65E00FD08EC /* cvfDebugTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfDebugTimer.cpp; sourceTree = "<group>"; };
+		D8AB0CAD122BB65E00FD08EC /* cvfDebugTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfDebugTimer.h; sourceTree = "<group>"; };
+		D8AB0CAE122BB65E00FD08EC /* cvfFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfFlags.h; sourceTree = "<group>"; };
+		D8AB0CAF122BB65E00FD08EC /* cvfFlags.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfFlags.inl; sourceTree = "<group>"; };
+		D8AB0CB0122BB65E00FD08EC /* cvfLibCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLibCore.h; sourceTree = "<group>"; };
+		D8AB0CB3122BB65E00FD08EC /* cvfMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfMath.cpp; sourceTree = "<group>"; };
+		D8AB0CB4122BB65E00FD08EC /* cvfMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfMath.h; sourceTree = "<group>"; };
+		D8AB0CB5122BB65E00FD08EC /* cvfMath.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfMath.inl; sourceTree = "<group>"; };
+		D8AB0CB6122BB65E00FD08EC /* cvfMatrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfMatrix4.h; sourceTree = "<group>"; };
+		D8AB0CB7122BB65E00FD08EC /* cvfMatrix4.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfMatrix4.inl; sourceTree = "<group>"; };
+		D8AB0CB8122BB65E00FD08EC /* cvfObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfObject.cpp; sourceTree = "<group>"; };
+		D8AB0CB9122BB65E00FD08EC /* cvfObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfObject.h; sourceTree = "<group>"; };
+		D8AB0CBA122BB65E00FD08EC /* cvfObject.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfObject.inl; sourceTree = "<group>"; };
+		D8AB0CBB122BB65E00FD08EC /* cvfPlane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfPlane.cpp; sourceTree = "<group>"; };
+		D8AB0CBC122BB65E00FD08EC /* cvfPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfPlane.h; sourceTree = "<group>"; };
+		D8AB0CBD122BB65E00FD08EC /* cvfQuat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfQuat.h; sourceTree = "<group>"; };
+		D8AB0CBE122BB65E00FD08EC /* cvfQuat.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfQuat.inl; sourceTree = "<group>"; };
+		D8AB0CBF122BB65E00FD08EC /* cvfRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfRect.h; sourceTree = "<group>"; };
+		D8AB0CC0122BB65E00FD08EC /* cvfRect.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfRect.inl; sourceTree = "<group>"; };
+		D8AB0CC1122BB65E00FD08EC /* cvfString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfString.cpp; sourceTree = "<group>"; };
+		D8AB0CC2122BB65E00FD08EC /* cvfString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfString.h; sourceTree = "<group>"; };
+		D8AB0CC3122BB65E00FD08EC /* cvfSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfSystem.cpp; sourceTree = "<group>"; };
+		D8AB0CC4122BB65E00FD08EC /* cvfSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfSystem.h; sourceTree = "<group>"; };
+		D8AB0CC5122BB65E00FD08EC /* cvfTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfTimer.cpp; sourceTree = "<group>"; };
+		D8AB0CC6122BB65E00FD08EC /* cvfTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfTimer.h; sourceTree = "<group>"; };
+		D8AB0CC7122BB65E00FD08EC /* cvfTrace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfTrace.cpp; sourceTree = "<group>"; };
+		D8AB0CC8122BB65E00FD08EC /* cvfTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfTrace.h; sourceTree = "<group>"; };
+		D8AB0CC9122BB65E00FD08EC /* cvfVector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfVector2.cpp; sourceTree = "<group>"; };
+		D8AB0CCA122BB65E00FD08EC /* cvfVector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfVector2.h; sourceTree = "<group>"; };
+		D8AB0CCB122BB65E00FD08EC /* cvfVector2.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfVector2.inl; sourceTree = "<group>"; };
+		D8AB0CCC122BB65E00FD08EC /* cvfVector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfVector3.cpp; sourceTree = "<group>"; };
+		D8AB0CCD122BB65E00FD08EC /* cvfVector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfVector3.h; sourceTree = "<group>"; };
+		D8AB0CCE122BB65E00FD08EC /* cvfVector3.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfVector3.inl; sourceTree = "<group>"; };
+		D8AB0CCF122BB65E00FD08EC /* cvfVector4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfVector4.cpp; sourceTree = "<group>"; };
+		D8AB0CD0122BB65E00FD08EC /* cvfVector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfVector4.h; sourceTree = "<group>"; };
+		D8AB0CD1122BB65E00FD08EC /* cvfVector4.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfVector4.inl; sourceTree = "<group>"; };
+		D8AB0CD2122BB65E00FD08EC /* cvfVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfVersion.h; sourceTree = "<group>"; };
+		D8AF792813C328C500DDB842 /* cvfFunctorRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfFunctorRange.h; sourceTree = "<group>"; };
+		D8AF792913C328C500DDB842 /* cvfTBBControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfTBBControl.cpp; sourceTree = "<group>"; };
+		D8AF792A13C328C500DDB842 /* cvfTBBControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfTBBControl.h; sourceTree = "<group>"; };
+		D8B12C75124CAE4E00386CF5 /* cvfMatrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfMatrix3.h; sourceTree = "<group>"; };
+		D8B12C76124CAE4E00386CF5 /* cvfMatrix3.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cvfMatrix3.inl; sourceTree = "<group>"; };
+		D8CA1F2B14730780003EB29D /* cvfLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfLogger.cpp; sourceTree = "<group>"; };
+		D8CA1F2C14730780003EB29D /* cvfLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfLogger.h; sourceTree = "<group>"; };
+		D8F900F6137D3069001BF1A5 /* cvfBase64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvfBase64.cpp; sourceTree = "<group>"; };
+		D8F900F7137D3069001BF1A5 /* cvfBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvfBase64.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libLibCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* LibCore */ = {
+			isa = PBXGroup;
+			children = (
+				73B995D013CDF7AF00ABA745 /* libLibGeometry.a */,
+				73B995D113CDF7AF00ABA745 /* libLibIo.a */,
+				73B995D213CDF7AF00ABA745 /* libLibRender.a */,
+				73B995D313CDF7AF00ABA745 /* libLibUnstructDisplay.a */,
+				73B995D413CDF7AF00ABA745 /* libLibUnstructGrid.a */,
+				73B995D513CDF7AF00ABA745 /* libLibViewing.a */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = LibCore;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8AB0C9E122BB65E00FD08EC /* cvfArray.h */,
+				D8AB0C9F122BB65E00FD08EC /* cvfArray.inl */,
+				D8AB0CA0122BB65E00FD08EC /* cvfAssert.cpp */,
+				D8AB0CA1122BB65E00FD08EC /* cvfAssert.h */,
+				D8AB0CA2122BB65E00FD08EC /* cvfBase.h */,
+				D8F900F6137D3069001BF1A5 /* cvfBase64.cpp */,
+				D8F900F7137D3069001BF1A5 /* cvfBase64.h */,
+				D8AB0CA3122BB65E00FD08EC /* cvfCharArray.cpp */,
+				D8AB0CA4122BB65E00FD08EC /* cvfCharArray.h */,
+				D82587C41758AAD000401BDA /* cvfCodeLocation.cpp */,
+				D82587C51758AAD000401BDA /* cvfCodeLocation.h */,
+				D8AB0CA5122BB65E00FD08EC /* cvfCollection.h */,
+				D8AB0CA6122BB65E00FD08EC /* cvfCollection.inl */,
+				D8AB0CA7122BB65E00FD08EC /* cvfColor3.cpp */,
+				D8AB0CA8122BB65E00FD08EC /* cvfColor3.h */,
+				D8AB0CA9122BB65E00FD08EC /* cvfColor4.cpp */,
+				D8AB0CAA122BB65E00FD08EC /* cvfColor4.h */,
+				D8AB0CAB122BB65E00FD08EC /* cvfConfigCore.h */,
+				D8AB0CAC122BB65E00FD08EC /* cvfDebugTimer.cpp */,
+				D8AB0CAD122BB65E00FD08EC /* cvfDebugTimer.h */,
+				D8AB0CAE122BB65E00FD08EC /* cvfFlags.h */,
+				D8AB0CAF122BB65E00FD08EC /* cvfFlags.inl */,
+				D8AF792813C328C500DDB842 /* cvfFunctorRange.h */,
+				D8AB0CB0122BB65E00FD08EC /* cvfLibCore.h */,
+				D82587C61758AAD000401BDA /* cvfLogDestination.h */,
+				D82587C71758AAD000401BDA /* cvfLogDestinationConsole.cpp */,
+				D82587C81758AAD000401BDA /* cvfLogDestinationConsole.h */,
+				D82587C91758AAD000401BDA /* cvfLogDestinationFile.cpp */,
+				D82587CA1758AAD000401BDA /* cvfLogDestinationFile.h */,
+				D82587CB1758AAD000401BDA /* cvfLogEvent.cpp */,
+				D82587CC1758AAD000401BDA /* cvfLogEvent.h */,
+				D8CA1F2B14730780003EB29D /* cvfLogger.cpp */,
+				D8CA1F2C14730780003EB29D /* cvfLogger.h */,
+				D82587CD1758AAD000401BDA /* cvfLogManager.cpp */,
+				D82587CE1758AAD000401BDA /* cvfLogManager.h */,
+				D8AB0CB3122BB65E00FD08EC /* cvfMath.cpp */,
+				D8AB0CB4122BB65E00FD08EC /* cvfMath.h */,
+				D8AB0CB5122BB65E00FD08EC /* cvfMath.inl */,
+				D8B12C75124CAE4E00386CF5 /* cvfMatrix3.h */,
+				D8B12C76124CAE4E00386CF5 /* cvfMatrix3.inl */,
+				D8AB0CB6122BB65E00FD08EC /* cvfMatrix4.h */,
+				D8AB0CB7122BB65E00FD08EC /* cvfMatrix4.inl */,
+				D82587CF1758AAD000401BDA /* cvfMutex.cpp */,
+				D82587D01758AAD000401BDA /* cvfMutex.h */,
+				D8AB0CB8122BB65E00FD08EC /* cvfObject.cpp */,
+				D8AB0CB9122BB65E00FD08EC /* cvfObject.h */,
+				D8AB0CBA122BB65E00FD08EC /* cvfObject.inl */,
+				D8AB0CBB122BB65E00FD08EC /* cvfPlane.cpp */,
+				D8AB0CBC122BB65E00FD08EC /* cvfPlane.h */,
+				D82587D11758AAD000401BDA /* cvfPropertySet.cpp */,
+				D82587D21758AAD000401BDA /* cvfPropertySet.h */,
+				D82587D31758AAD000401BDA /* cvfPropertySetCollection.cpp */,
+				D82587D41758AAD000401BDA /* cvfPropertySetCollection.h */,
+				D8AB0CBD122BB65E00FD08EC /* cvfQuat.h */,
+				D8AB0CBE122BB65E00FD08EC /* cvfQuat.inl */,
+				D8AB0CBF122BB65E00FD08EC /* cvfRect.h */,
+				D8AB0CC0122BB65E00FD08EC /* cvfRect.inl */,
+				D8AB0CC1122BB65E00FD08EC /* cvfString.cpp */,
+				D8AB0CC2122BB65E00FD08EC /* cvfString.h */,
+				D8AB0CC3122BB65E00FD08EC /* cvfSystem.cpp */,
+				D8AB0CC4122BB65E00FD08EC /* cvfSystem.h */,
+				D8AF792913C328C500DDB842 /* cvfTBBControl.cpp */,
+				D8AF792A13C328C500DDB842 /* cvfTBBControl.h */,
+				D8AB0CC5122BB65E00FD08EC /* cvfTimer.cpp */,
+				D8AB0CC6122BB65E00FD08EC /* cvfTimer.h */,
+				D8AB0CC7122BB65E00FD08EC /* cvfTrace.cpp */,
+				D8AB0CC8122BB65E00FD08EC /* cvfTrace.h */,
+				D882CD02136EA41800F12B68 /* cvfValueArray.h */,
+				D82587D51758AAD000401BDA /* cvfVariant.cpp */,
+				D82587D61758AAD000401BDA /* cvfVariant.h */,
+				D8AB0CC9122BB65E00FD08EC /* cvfVector2.cpp */,
+				D8AB0CCA122BB65E00FD08EC /* cvfVector2.h */,
+				D8AB0CCB122BB65E00FD08EC /* cvfVector2.inl */,
+				D8AB0CCC122BB65E00FD08EC /* cvfVector3.cpp */,
+				D8AB0CCD122BB65E00FD08EC /* cvfVector3.h */,
+				D8AB0CCE122BB65E00FD08EC /* cvfVector3.inl */,
+				D8AB0CCF122BB65E00FD08EC /* cvfVector4.cpp */,
+				D8AB0CD0122BB65E00FD08EC /* cvfVector4.h */,
+				D8AB0CD1122BB65E00FD08EC /* cvfVector4.inl */,
+				D8AB0CD2122BB65E00FD08EC /* cvfVersion.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* LibCore_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* LibCore_Prefix.pch in Headers */,
+				D8AB0CD3122BB65E00FD08EC /* cvfArray.h in Headers */,
+				D8AB0CD5122BB65E00FD08EC /* cvfAssert.h in Headers */,
+				D8AB0CD6122BB65E00FD08EC /* cvfBase.h in Headers */,
+				D8AB0CD8122BB65E00FD08EC /* cvfCharArray.h in Headers */,
+				D8AB0CD9122BB65E00FD08EC /* cvfCollection.h in Headers */,
+				D8AB0CDB122BB65E00FD08EC /* cvfColor3.h in Headers */,
+				D8AB0CDD122BB65E00FD08EC /* cvfColor4.h in Headers */,
+				D8AB0CDE122BB65E00FD08EC /* cvfConfigCore.h in Headers */,
+				D8AB0CE0122BB65E00FD08EC /* cvfDebugTimer.h in Headers */,
+				D8AB0CE1122BB65E00FD08EC /* cvfFlags.h in Headers */,
+				D8AB0CE2122BB65E00FD08EC /* cvfLibCore.h in Headers */,
+				D8AB0CE6122BB65E00FD08EC /* cvfMath.h in Headers */,
+				D8AB0CE7122BB65E00FD08EC /* cvfMatrix4.h in Headers */,
+				D8AB0CE9122BB65E00FD08EC /* cvfObject.h in Headers */,
+				D8AB0CEB122BB65E00FD08EC /* cvfPlane.h in Headers */,
+				D8AB0CEC122BB65E00FD08EC /* cvfQuat.h in Headers */,
+				D8AB0CED122BB65E00FD08EC /* cvfRect.h in Headers */,
+				D8AB0CEF122BB65E00FD08EC /* cvfString.h in Headers */,
+				D8AB0CF1122BB65E00FD08EC /* cvfSystem.h in Headers */,
+				D8AB0CF3122BB65E00FD08EC /* cvfTimer.h in Headers */,
+				D8AB0CF5122BB65E00FD08EC /* cvfTrace.h in Headers */,
+				D8AB0CF7122BB65E00FD08EC /* cvfVector2.h in Headers */,
+				D8AB0CF9122BB65E00FD08EC /* cvfVector3.h in Headers */,
+				D8AB0CFB122BB65E00FD08EC /* cvfVector4.h in Headers */,
+				D8AB0CFC122BB65E00FD08EC /* cvfVersion.h in Headers */,
+				D8B12C77124CAE4E00386CF5 /* cvfMatrix3.h in Headers */,
+				D882CD03136EA41800F12B68 /* cvfValueArray.h in Headers */,
+				D8F900F9137D3069001BF1A5 /* cvfBase64.h in Headers */,
+				D8AF792B13C328C500DDB842 /* cvfFunctorRange.h in Headers */,
+				D8AF792D13C328C500DDB842 /* cvfTBBControl.h in Headers */,
+				D8CA1F2E14730780003EB29D /* cvfLogger.h in Headers */,
+				D82587D81758AAD000401BDA /* cvfCodeLocation.h in Headers */,
+				D82587D91758AAD000401BDA /* cvfLogDestination.h in Headers */,
+				D82587DB1758AAD000401BDA /* cvfLogDestinationConsole.h in Headers */,
+				D82587DD1758AAD000401BDA /* cvfLogDestinationFile.h in Headers */,
+				D82587DF1758AAD000401BDA /* cvfLogEvent.h in Headers */,
+				D82587E11758AAD000401BDA /* cvfLogManager.h in Headers */,
+				D82587E31758AAD000401BDA /* cvfMutex.h in Headers */,
+				D82587E51758AAD000401BDA /* cvfPropertySet.h in Headers */,
+				D82587E71758AAD000401BDA /* cvfPropertySetCollection.h in Headers */,
+				D82587E91758AAD000401BDA /* cvfVariant.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* LibCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LibCore" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibCore;
+			productName = LibCore;
+			productReference = D2AAC07E0554694100DB518D /* libLibCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LibCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* LibCore */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* LibCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AB0CD4122BB65E00FD08EC /* cvfAssert.cpp in Sources */,
+				D8AB0CD7122BB65E00FD08EC /* cvfCharArray.cpp in Sources */,
+				D8AB0CDA122BB65E00FD08EC /* cvfColor3.cpp in Sources */,
+				D8AB0CDC122BB65E00FD08EC /* cvfColor4.cpp in Sources */,
+				D8AB0CDF122BB65E00FD08EC /* cvfDebugTimer.cpp in Sources */,
+				D8AB0CE5122BB65E00FD08EC /* cvfMath.cpp in Sources */,
+				D8AB0CE8122BB65E00FD08EC /* cvfObject.cpp in Sources */,
+				D8AB0CEA122BB65E00FD08EC /* cvfPlane.cpp in Sources */,
+				D8AB0CEE122BB65E00FD08EC /* cvfString.cpp in Sources */,
+				D8AB0CF0122BB65E00FD08EC /* cvfSystem.cpp in Sources */,
+				D8AB0CF2122BB65E00FD08EC /* cvfTimer.cpp in Sources */,
+				D8AB0CF4122BB65E00FD08EC /* cvfTrace.cpp in Sources */,
+				D8AB0CF6122BB65E00FD08EC /* cvfVector2.cpp in Sources */,
+				D8AB0CF8122BB65E00FD08EC /* cvfVector3.cpp in Sources */,
+				D8AB0CFA122BB65E00FD08EC /* cvfVector4.cpp in Sources */,
+				D8F900F8137D3069001BF1A5 /* cvfBase64.cpp in Sources */,
+				D8AF792C13C328C500DDB842 /* cvfTBBControl.cpp in Sources */,
+				D8CA1F2D14730780003EB29D /* cvfLogger.cpp in Sources */,
+				D82587D71758AAD000401BDA /* cvfCodeLocation.cpp in Sources */,
+				D82587DA1758AAD000401BDA /* cvfLogDestinationConsole.cpp in Sources */,
+				D82587DC1758AAD000401BDA /* cvfLogDestinationFile.cpp in Sources */,
+				D82587DE1758AAD000401BDA /* cvfLogEvent.cpp in Sources */,
+				D82587E01758AAD000401BDA /* cvfLogManager.cpp in Sources */,
+				D82587E21758AAD000401BDA /* cvfMutex.cpp in Sources */,
+				D82587E41758AAD000401BDA /* cvfPropertySet.cpp in Sources */,
+				D82587E61758AAD000401BDA /* cvfPropertySetCollection.cpp in Sources */,
+				D82587E81758AAD000401BDA /* cvfVariant.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/LibCore.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibCore_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibCore;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/LibCore.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibCore_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibCore;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = CVF_IOS;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PREPROCESSOR_DEFINITIONS = CVF_IOS;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D8AEF3FD12663BE00008451F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PREPROCESSOR_DEFINITIONS = CVF_IOS;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Distribution;
+		};
+		D8AEF3FE12663BE00008451F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/LibCore.dst;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibCore_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LibCore;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LibCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+				D8AEF3FE12663BE00008451F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LibCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+				D8AEF3FD12663BE00008451F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

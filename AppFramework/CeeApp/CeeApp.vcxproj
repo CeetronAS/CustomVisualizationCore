@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ProjectDataModel_UnitTests|Win32">
+      <Configuration>ProjectDataModel_UnitTests</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <Keyword>MakeFileProj</Keyword>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ProjectDataModel_UnitTests|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ProjectDataModel_UnitTests|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions);USE_CAF_PDM</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>msbuild C:\cmakebuild\CeeApp\CeeApp.sln /m:8</NMakeBuildCommandLine>
+    <NMakeIncludeSearchPath>D:\Qt\4.7.1_dll_VS2010\include;D:\Qt\4.7.1_dll_VS2010\include\QtCore;D:\Qt\4.7.1_dll_VS2010\include\QtGui;cafprojectDataModel;cafUserInterface;QtPropertyBrowser;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeReBuildCommandLine>msbuild C:\cmakebuild\CeeApp\CeeApp.sln /m:8  /t:rebuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>msbuild C:\cmakebuild\CeeApp\CeeApp.sln /m:8  /t:clean</NMakeCleanCommandLine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ProjectDataModel_UnitTests|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions);USE_CAF_PDM</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>msbuild C:\cmakebuild\CeeApp\CeeApp.sln /m:8</NMakeBuildCommandLine>
+    <NMakeIncludeSearchPath>D:\Qt\4.7.1_dll_VS2010\include;D:\Qt\4.7.1_dll_VS2010\include\QtCore;D:\Qt\4.7.1_dll_VS2010\include\QtGui;cafprojectDataModel;cafUserInterface;QtPropertyBrowser;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeReBuildCommandLine>msbuild C:\cmakebuild\CeeApp\CeeApp.sln /m:8  /t:rebuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>msbuild C:\cmakebuild\CeeApp\CeeApp.sln /m:8  /t:clean</NMakeCleanCommandLine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cafProjectDataModel\cafPdmDocument.cpp" />
+    <ClCompile Include="cafProjectDataModel\cafPdmField.cpp" />
+    <ClCompile Include="cafProjectDataModel\cafPdmObject.cpp" />
+    <ClCompile Include="cafProjectDataModel\cafPdmPointer.cpp" />
+    <ClCompile Include="cafProjectDataModel\cafPdmUiEditorHandle.cpp" />
+    <ClCompile Include="cafProjectDataModel\cafPdmUiFieldEditorHandle.cpp" />
+    <ClCompile Include="cafProjectDataModel\cafPdmUiItem.cpp" />
+    <ClCompile Include="cafProjectDataModel\cafPdmUiObjectEditorHandle.cpp" />
+    <ClCompile Include="cafProjectDataModel\cafPdmUiOrdering.cpp" />
+    <ClCompile Include="cafuserinterface\cafBasicAboutDialog.cpp" />
+    <ClCompile Include="cafUserInterface\cafFrameAnimationControl.cpp" />
+    <ClCompile Include="cafUserInterface\cafPdmUiCheckBoxEditor.cpp" />
+    <ClCompile Include="cafUserInterface\cafPdmUiColorEditor.cpp" />
+    <ClCompile Include="cafUserInterface\cafPdmUiComboBoxEditor.cpp" />
+    <ClCompile Include="cafUserInterface\cafPdmUiDefaultObjectEditor.cpp" />
+    <ClCompile Include="cafUserInterface\cafPdmUiFilePathEditor.cpp" />
+    <ClCompile Include="cafUserInterface\cafPdmUiLineEditor.cpp" />
+    <ClCompile Include="cafUserInterface\cafPdmUiListEditor.cpp" />
+    <ClCompile Include="cafUserInterface\cafPdmUiPropertyView.cpp" />
+    <ClCompile Include="cafUserInterface\cafPdmUiSliderEditor.cpp" />
+    <ClCompile Include="cafuserinterface\cafUiManagerPdm.cpp" />
+    <ClCompile Include="cafUserInterface\cafUiProcess.cpp" />
+    <ClCompile Include="cafUserInterface\cafUiPropertyCreatorPdm.cpp" />
+    <ClCompile Include="cafuserinterface\cafUiTreeModelPdm.cpp" />
+    <ClCompile Include="cafUserInterface\cafViewer.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtbuttonpropertybrowser.cpp" />
+    <ClCompile Include="qtpropertybrowser\qteditorfactory.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtgroupboxpropertybrowser.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtpropertybrowser.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtpropertybrowserutils.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtpropertymanager.cpp" />
+    <ClCompile Include="qtpropertybrowser\qttreepropertybrowser.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtvariantproperty.cpp" />
+    <ClCompile Include="cafTests\cafprojectdatamodel_unittests\cafPdmBasicTest.cpp" />
+    <ClCompile Include="cafTests\cafprojectdatamodel_unittests\cafProjectDataModel_UnitTests.cpp" />
+    <ClCompile Include="cafTests\caftestapplication\Main.cpp" />
+    <ClCompile Include="cafTests\caftestapplication\MainWindow.cpp" />
+    <ClCompile Include="cafTests\gtest\gtest-all.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cafprojectdatamodel\cafAppEnum.h" />
+    <ClInclude Include="cafProjectDataModel\cafFactory.h" />
+    <ClInclude Include="cafProjectDataModel\cafFixedArray.h" />
+    <ClInclude Include="cafProjectDataModel\cafOmpMutex.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmDocument.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmField.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmFieldImpl.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmObject.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmObjectFactory.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmPointer.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmUIBindingNotes.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmUiEditorHandle.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmUiFieldEditorHandle.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmUiItem.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmUiObjectEditorHandle.h" />
+    <ClInclude Include="cafProjectDataModel\cafPdmUiOrdering.h" />
+    <ClInclude Include="cafuserinterface\cafBasicAboutDialog.h" />
+    <ClInclude Include="cafUserInterface\cafFrameAnimationControl.h" />
+    <ClInclude Include="cafUserInterface\cafPdmUiCheckBoxEditor.h" />
+    <ClInclude Include="cafUserInterface\cafPdmUiColorEditor.h" />
+    <ClInclude Include="cafUserInterface\cafPdmUiComboBoxEditor.h" />
+    <ClInclude Include="cafUserInterface\cafPdmUiDefaultObjectEditor.h" />
+    <ClInclude Include="cafUserInterface\cafPdmUiFilePathEditor.h" />
+    <ClInclude Include="cafUserInterface\cafPdmUiLineEditor.h" />
+    <ClInclude Include="cafUserInterface\cafPdmUiListEditor.h" />
+    <ClInclude Include="cafUserInterface\cafPdmUiPropertyView.h" />
+    <ClInclude Include="cafUserInterface\cafPdmUiSliderEditor.h" />
+    <ClInclude Include="cafuserinterface\cafUiManagerPdm.h" />
+    <ClInclude Include="cafUserInterface\cafUiProcess.h" />
+    <ClInclude Include="cafUserInterface\cafUiPropertyCreatorPdm.h" />
+    <ClInclude Include="cafuserinterface\cafUiTreeItem.h" />
+    <ClInclude Include="cafuserinterface\cafUiTreeModelPdm.h" />
+    <ClInclude Include="cafUserInterface\cafViewer.h" />
+    <ClInclude Include="qtpropertybrowser\qtbuttonpropertybrowser.h" />
+    <ClInclude Include="qtpropertybrowser\qteditorfactory.h" />
+    <ClInclude Include="qtpropertybrowser\qtgroupboxpropertybrowser.h" />
+    <ClInclude Include="qtpropertybrowser\qtpropertybrowser.h" />
+    <ClInclude Include="qtpropertybrowser\qtpropertybrowserutils_p.h" />
+    <ClInclude Include="qtpropertybrowser\qtpropertymanager.h" />
+    <ClInclude Include="qtpropertybrowser\qttreepropertybrowser.h" />
+    <ClInclude Include="qtpropertybrowser\qtvariantproperty.h" />
+    <ClInclude Include="cafTests\caftestapplication\MainWindow.h" />
+    <ClInclude Include="cafTests\gtest\cvftestUtils.h" />
+    <ClInclude Include="cafTests\gtest\gtest.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cafProjectDataModel\cafPdmField.inl" />
+    <None Include="cafProjectDataModel\CMakeLists.txt" />
+    <None Include="cafUserInterface\cmakelists.txt" />
+    <None Include="CMakeLists.txt" />
+    <None Include="QtPropertyBrowser\CMakeLists.txt" />
+    <None Include="QtPropertyBrowser\qtadditions_cmake.txt" />
+    <None Include="cafTests\cafProjectDataModel_UnitTests\CMakeLists.txt" />
+    <None Include="cafTests\cafTestApplication\CMakeLists.txt" />
+    <None Include="cafTests\cafTestApplication\textedit.qrc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

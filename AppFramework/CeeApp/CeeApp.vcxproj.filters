@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cafuserinterface\cafBasicAboutDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafuserinterface\cafUiManagerPdm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafuserinterface\cafUiTreeModelPdm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtbuttonpropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qteditorfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtgroupboxpropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtpropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtpropertybrowserutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtpropertymanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qttreepropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtvariantproperty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafProjectDataModel\cafPdmDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafProjectDataModel\cafPdmField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafProjectDataModel\cafPdmObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafProjectDataModel\cafPdmUiItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafFrameAnimationControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafTests\cafprojectdatamodel_unittests\cafPdmBasicTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafTests\cafprojectdatamodel_unittests\cafProjectDataModel_UnitTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafTests\caftestapplication\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafTests\caftestapplication\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafTests\gtest\gtest-all.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafPdmUiCheckBoxEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafPdmUiColorEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafPdmUiComboBoxEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafPdmUiDefaultObjectEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafPdmUiFilePathEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafPdmUiLineEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafPdmUiListEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafPdmUiPropertyView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafPdmUiSliderEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafUiProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafUserInterface\cafUiPropertyCreatorPdm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafProjectDataModel\cafPdmPointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafProjectDataModel\cafPdmUiEditorHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafProjectDataModel\cafPdmUiFieldEditorHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafProjectDataModel\cafPdmUiObjectEditorHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cafProjectDataModel\cafPdmUiOrdering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cafprojectdatamodel\cafAppEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafuserinterface\cafBasicAboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafuserinterface\cafUiManagerPdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafuserinterface\cafUiTreeItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafuserinterface\cafUiTreeModelPdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtpropertybrowser\qtbuttonpropertybrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtpropertybrowser\qteditorfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtpropertybrowser\qtgroupboxpropertybrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtpropertybrowser\qtpropertybrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtpropertybrowser\qtpropertybrowserutils_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtpropertybrowser\qtpropertymanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtpropertybrowser\qttreepropertybrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtpropertybrowser\qtvariantproperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmUiItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmFieldImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafFrameAnimationControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafTests\caftestapplication\MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafTests\gtest\cvftestUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafTests\gtest\gtest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafUiPropertyCreatorPdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafPdmUiCheckBoxEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafPdmUiColorEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafPdmUiComboBoxEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafPdmUiDefaultObjectEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafPdmUiFilePathEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafPdmUiLineEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafPdmUiListEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafPdmUiPropertyView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafPdmUiSliderEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafUserInterface\cafUiProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafOmpMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafFixedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmUIBindingNotes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmUiFieldEditorHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmUiEditorHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmUiOrdering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafProjectDataModel\cafPdmUiObjectEditorHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeLists.txt" />
+    <None Include="QtPropertyBrowser\CMakeLists.txt" />
+    <None Include="QtPropertyBrowser\qtadditions_cmake.txt" />
+    <None Include="cafUserInterface\cmakelists.txt" />
+    <None Include="cafProjectDataModel\CMakeLists.txt" />
+    <None Include="cafProjectDataModel\cafPdmField.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="cafTests\cafProjectDataModel_UnitTests\CMakeLists.txt" />
+    <None Include="cafTests\cafTestApplication\CMakeLists.txt" />
+    <None Include="cafTests\cafTestApplication\textedit.qrc" />
+  </ItemGroup>
+</Project>
