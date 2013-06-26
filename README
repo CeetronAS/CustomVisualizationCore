@@ -18,7 +18,7 @@ git clone https://github.com/CeetronAS/CustomVisualizationCore.git
  
 BUILD INSTRUCTIONS
 * VizFramework
-  There is top level cmakelists.txt that can be used to create your build project. This project will also include unit tests and example applications.
+There is top level cmakelists.txt that can be used to create your build project. This project will also include unit tests and example applications.
 
 * AppFramework
-  There is top level cmakelists.txt that can be used to create your build project. This project will also include unit tests and example applications.
+There is top level cmakelists.txt that can be used to create your build project. This project will also include unit tests and example applications.
