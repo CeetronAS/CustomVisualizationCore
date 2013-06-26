@@ -1,0 +1,24 @@
+CustomVisualizationCore
+=======================
+
+CustomVisualizationCore is a set of tools for development of visualization applications. The software is copyrighted by Ceetron and may be used under the terms of either the GNU General Public License or the GNU Lesser General Public License. See COPYING for details.
+
+ON WHAT PLATFORMS DOES IT RUN?
+CustomVisualizationCore is designed cross-platform from the start. Efforts have been made to ensure that code will compile and run on Linux and Windows platforms.
+
+DEPENDENCIES
+Build system          - CMake
+Development framework - Qt
+
+DOCUMENTATION
+No efforts to provide documentation has been made yet.
+
+DOWNLOAD
+git clone https://github.com/CeetronAS/CustomVisualizationCore.git
+ 
+BUILD INSTRUCTIONS
+* VizFramework
+  There is top level cmakelists.txt that can be used to create your build project. This project will also include unit tests and example applications.
+
+* AppFramework
+  There is top level cmakelists.txt that can be used to create your build project. This project will also include unit tests and example applications.
