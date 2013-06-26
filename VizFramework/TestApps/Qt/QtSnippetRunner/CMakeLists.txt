@@ -27,7 +27,7 @@ include_directories(${SnippetsBasis_SOURCE_DIR})
 set(CEE_LIBS SnippetsBasis freetype LibFreeType LibUtilities LibGuiQt LibViewing LibRender LibGeometry LibIo LibCore)
 
 include_directories(${SnippetsModules_SOURCE_DIR})
-set(CEE_LIBS ZipArchive LibStructGrid ${CEE_LIBS})
+set(CEE_LIBS LibStructGrid ${CEE_LIBS})
 
 
 set(CEE_SOURCE_FILES

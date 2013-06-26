@@ -12,7 +12,7 @@ include_directories(${LibIo_SOURCE_DIR})
 include_directories(${LibGeometry_SOURCE_DIR})
 include_directories(${LibRender_SOURCE_DIR})
 include_directories(${LibRegGrid2D_SOURCE_DIR})
-include_directories(${CeeViz_SOURCE_DIR}/ThirdParty)
+include_directories(${VizFramework_SOURCE_DIR}/ThirdParty)
 
 set(CEE_LIBS LibRegGrid2D LibRender LibGeometry LibIo LibCore)
 

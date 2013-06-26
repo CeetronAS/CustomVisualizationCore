@@ -7,7 +7,7 @@ project(LibIo_UnitTests)
 
 include_directories(${LibCore_SOURCE_DIR})
 include_directories(${LibIo_SOURCE_DIR})
-include_directories(${CeeViz_SOURCE_DIR}/ThirdParty)
+include_directories(${VizFramework_SOURCE_DIR}/ThirdParty)
 
 set(CEE_LIBS LibIo LibCore)
 

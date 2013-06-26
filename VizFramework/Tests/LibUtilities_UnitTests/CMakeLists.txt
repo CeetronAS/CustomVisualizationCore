@@ -12,7 +12,7 @@ include_directories(${LibGeometry_SOURCE_DIR})
 include_directories(${LibRender_SOURCE_DIR})
 include_directories(${LibViewing_SOURCE_DIR})
 include_directories(${LibUtilities_SOURCE_DIR})
-include_directories(${CeeViz_SOURCE_DIR}/ThirdParty)
+include_directories(${VizFramework_SOURCE_DIR}/ThirdParty)
 
 set(CEE_LIBS LibUtilities LibViewing LibRender LibGeometry LibCore)
 

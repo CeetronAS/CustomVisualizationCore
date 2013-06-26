@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(CeeViz)
+project(VizFramework)
 
 
 # Determine if we're being run stand-alone or invoked from some other project
