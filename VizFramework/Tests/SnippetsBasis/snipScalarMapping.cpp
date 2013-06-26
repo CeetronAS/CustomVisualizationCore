@@ -534,7 +534,7 @@ ref<Effect> ScalarMapping::createFixedFunctionTextureResultEffect(const ScalarMa
     ref<cvf::RenderStateTextureMapping_FF> texMapping = new cvf::RenderStateTextureMapping_FF(texture.p());
     eff->setRenderState(texMapping.p());
 
-//     // Uses full blown CeeViz texture setup
+//     // Uses full blown texture setup
 //     CVF_ASSERT(CVF_OPENGL_1_3);
 //     ref<cvf::Sampler> sampler = new cvf::Sampler;
 //     sampler->setWrapMode(Sampler::CLAMP_TO_EDGE);

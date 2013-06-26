@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 
     QMVMainWindow window;
     QString platform = cvf::System::is64Bit() ? "(64bit)" : "(32bit)";
-    window.setWindowTitle("Qt MultiView CeeViz " + platform);
+    window.setWindowTitle("Qt MultiView " + platform);
     window.resize(1000, 800);;
     window.show();
 

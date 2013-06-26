@@ -252,7 +252,7 @@ ref<Part> TextDrawing::createTextPart()
     m_textDrawable->setFont(NULL);
     m_textDrawable->setTextColor(Color3::RED);
 
-//     m_textDrawable->addText(L"CeeViz text:",                                        cvf::Vec3f(50, 200, 0));
+//     m_textDrawable->addText(L"Text:",                                               cvf::Vec3f(50, 200, 0));
 //     m_textDrawable->addText(L"   ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ",                    cvf::Vec3f(50, 170, 0));
 //     m_textDrawable->addText(L"   abcdefghijklmnopqrstuvwxyzæøå",                    cvf::Vec3f(50, 140, 0));
 //     m_textDrawable->addText(L"   0123456789 0123456789 0123456789",                 cvf::Vec3f(50, 110, 0));

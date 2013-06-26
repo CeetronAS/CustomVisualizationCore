@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 
     QMMainWindow window;
     QString platform = cvf::System::is64Bit() ? "(64bit)" : "(32bit)";
-    window.setWindowTitle("Qt Minimal CeeViz " + platform);
+    window.setWindowTitle("Qt Minimal " + platform);
     window.resize(1000, 800);;
     window.show();
 

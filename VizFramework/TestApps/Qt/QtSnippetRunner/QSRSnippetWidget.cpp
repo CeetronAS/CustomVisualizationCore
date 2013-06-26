@@ -653,7 +653,7 @@ void QSRSnippetWidget::drawHud(QPainter* painter, cvf::OpenGLContext* oglContext
     // For some obscure reason text drawing via Qt seems to go hay-wire in software OpenGL mode quite often
     // For the moment it seems that stuffing a long string (longer than any other strings) at the top of the HUD
     // fixes this. Go figure!
-    hud.addString("Ceetron CeeViz Qt Snippet Runner Performance Info:");
+    hud.addString("Ceetron Qt Snippet Runner Performance Info:");
 
     if (renderSeq) 
     {

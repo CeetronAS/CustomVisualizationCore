@@ -1,5 +1,5 @@
 
-Documentation guidelines when writing Doxygen doc for CeeViz.
+Documentation guidelines when writing Doxygen doc for CVC.
 -------------------------------------------------------------
 
 Ripped from: http://api.haiku-os.org/apidoc.html

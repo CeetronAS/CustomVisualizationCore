@@ -46,7 +46,7 @@ namespace cvfqt {
 
 //==================================================================================================
 //
-// Utility class used to piggyback our CeeViz OpenGLContext onto Qt's QGLContext
+// Utility class used to piggyback OpenGLContext onto Qt's QGLContext
 //
 //==================================================================================================
 class CvfBoundQGLContext : public QGLContext

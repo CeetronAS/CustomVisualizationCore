@@ -70,7 +70,7 @@ BasicAboutDialog::BasicAboutDialog(QWidget* parent)
     //m_appVersion;
     //m_appCopyright;
 
-    m_showCeeVizVersion = true;
+    m_showLibraryVersion = true;
     m_showQtVersion = true;
 
     m_isDebugBuild = false;
@@ -118,12 +118,12 @@ void BasicAboutDialog::setApplicationIcon(const QIcon& icon)
 
 
 //--------------------------------------------------------------------------------------------------
-/// Enable display of CeeViz version
+/// 
 //--------------------------------------------------------------------------------------------------
-void BasicAboutDialog::showCeeVizVersion(bool show)
+void BasicAboutDialog::showLibraryVersion(bool show)
 { 
     CVF_ASSERT(!m_isCreated); 
-    m_showCeeVizVersion = show; 
+    m_showLibraryVersion = show; 
 }		
 
 
@@ -263,7 +263,7 @@ void BasicAboutDialog::create()
 
 
     // Possibly show extend version info
-    if (m_showCeeVizVersion	||
+    if (m_showLibraryVersion	||
         m_showQtVersion	    ||
         m_verLabels.size() > 0)
     {
@@ -272,13 +272,13 @@ void BasicAboutDialog::create()
 
         int insertRow = 0;
 
-        // CeeViz version
-        if (m_showCeeVizVersion)
+        // Library version
+        if (m_showLibraryVersion)
         {
             QString ver;
             ver.sprintf("%s.%s%s-%s", CVF_MAJOR_VERSION, CVF_MINOR_VERSION, CVF_SPECIAL_BUILD, CVF_BUILD_NUMBER);
 
-            addStringPairToVerInfoLayout("CeeViz ver.:  ", ver, verInfoLayout, insertRow++);
+            addStringPairToVerInfoLayout("Library ver.:  ", ver, verInfoLayout, insertRow++);
         }
 
         // Qt version

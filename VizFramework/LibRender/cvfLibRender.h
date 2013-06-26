@@ -36,7 +36,7 @@
 
 
 // Doxygen module definition
-/// \ingroup CeeVizFramework
+/// \ingroup VizFramework
 /// @{
 /// \defgroup Render Render module
 /// @}
